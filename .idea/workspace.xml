@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28a02939-4ef4-4c16-9a37-303e3a4e157e" name="Changes" comment="whdwhud">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="28a02939-4ef4-4c16-9a37-303e3a4e157e" name="Changes" comment="postgre">
       <change beforePath="$PROJECT_DIR$/hori-hori" beforeDir="false" afterPath="$PROJECT_DIR$/hori-hori" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +19,19 @@
     </execution>
   </component>
   <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="master" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="master" />
@@ -199,7 +211,7 @@
       <workItem from="1648723965139" duration="618000" />
       <workItem from="1649064710197" duration="2948000" />
       <workItem from="1649149062069" duration="8402000" />
-      <workItem from="1649235613455" duration="7392000" />
+      <workItem from="1649235613455" duration="7766000" />
     </task>
     <task id="LOCAL-00001" summary="aza">
       <created>1649237250576</created>
@@ -222,7 +234,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649241496163</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="postgre">
+      <created>1649247550803</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1649247550803</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -244,6 +263,7 @@
     <MESSAGE value="Added Database" />
     <MESSAGE value="Added Database 1" />
     <MESSAGE value="whdwhud" />
-    <option name="LAST_COMMIT_MESSAGE" value="whdwhud" />
+    <MESSAGE value="postgre" />
+    <option name="LAST_COMMIT_MESSAGE" value="postgre" />
   </component>
 </project>
