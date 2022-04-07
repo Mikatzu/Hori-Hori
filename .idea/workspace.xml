@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28a02939-4ef4-4c16-9a37-303e3a4e157e" name="Changes" comment="postgre">
+    <list default="true" id="28a02939-4ef4-4c16-9a37-303e3a4e157e" name="Changes" comment="postgre db connection">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9bda7ab2-8153-4839-be98-53dac7f517b9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9bda7ab2-8153-4839-be98-53dac7f517b9.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9bda7ab2-8153-4839-be98-53dac7f517b9/storage_v2/_src_/database/d1s4q7p0lhu3vl.ZAwBYA/schema/pg_catalog.0S1ZNQ.zip" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9bda7ab2-8153-4839-be98-53dac7f517b9/storage_v2/_src_/database/d1s4q7p0lhu3vl.ZAwBYA/schema/pg_catalog.0S1ZNQ.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9bda7ab2-8153-4839-be98-53dac7f517b9/storage_v2/_src_/database/d1s4q7p0lhu3vl.ZAwBYA/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9bda7ab2-8153-4839-be98-53dac7f517b9/storage_v2/_src_/database/d1s4q7p0lhu3vl.ZAwBYA/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hori-hori" beforeDir="false" afterPath="$PROJECT_DIR$/hori-hori" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -176,13 +180,16 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="codeWithMe.voiceChat.enabledByDefault" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/hori-hori/resources/views" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/hori-hori/database/reserve_files" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="vcs.Subversion.SSH" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Projects\hori-hori\database\reserve_files" />
+      <recent name="C:\Projects\hori-hori\database\migrations" />
+      <recent name="C:\Projects\hori-hori\database\reserve files" />
       <recent name="C:\Projects\hori-hori\resources\views" />
     </key>
   </component>
@@ -211,7 +218,8 @@
       <workItem from="1648723965139" duration="618000" />
       <workItem from="1649064710197" duration="2948000" />
       <workItem from="1649149062069" duration="8402000" />
-      <workItem from="1649235613455" duration="7766000" />
+      <workItem from="1649235613455" duration="8281000" />
+      <workItem from="1649308372918" duration="3483000" />
     </task>
     <task id="LOCAL-00001" summary="aza">
       <created>1649237250576</created>
@@ -241,7 +249,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649247550803</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="postgre db connection">
+      <created>1649248140217</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1649248140217</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -264,6 +279,7 @@
     <MESSAGE value="Added Database 1" />
     <MESSAGE value="whdwhud" />
     <MESSAGE value="postgre" />
-    <option name="LAST_COMMIT_MESSAGE" value="postgre" />
+    <MESSAGE value="postgre db connection" />
+    <option name="LAST_COMMIT_MESSAGE" value="postgre db connection" />
   </component>
 </project>
