@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28a02939-4ef4-4c16-9a37-303e3a4e157e" name="Changes" comment="postgre db connection">
+    <list default="true" id="28a02939-4ef4-4c16-9a37-303e3a4e157e" name="Changes" comment="make it better">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/9bda7ab2-8153-4839-be98-53dac7f517b9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9bda7ab2-8153-4839-be98-53dac7f517b9.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9bda7ab2-8153-4839-be98-53dac7f517b9/storage_v2/_src_/database/d1s4q7p0lhu3vl.ZAwBYA/schema/pg_catalog.0S1ZNQ.zip" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9bda7ab2-8153-4839-be98-53dac7f517b9/storage_v2/_src_/database/d1s4q7p0lhu3vl.ZAwBYA/schema/pg_catalog.0S1ZNQ.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9bda7ab2-8153-4839-be98-53dac7f517b9/storage_v2/_src_/database/d1s4q7p0lhu3vl.ZAwBYA/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9bda7ab2-8153-4839-be98-53dac7f517b9/storage_v2/_src_/database/d1s4q7p0lhu3vl.ZAwBYA/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hori-hori" beforeDir="false" afterPath="$PROJECT_DIR$/hori-hori" afterDir="false" />
     </list>
@@ -180,9 +180,10 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="codeWithMe.voiceChat.enabledByDefault" value="false" />
+    <property name="database.data.extractors.current.export.id" value="SQL Updates" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/hori-hori/database/reserve_files" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -192,6 +193,44 @@
       <recent name="C:\Projects\hori-hori\database\reserve files" />
       <recent name="C:\Projects\hori-hori\resources\views" />
     </key>
+  </component>
+  <component name="RunManager" selected="Docker.8.1/Dockerfile">
+    <configuration name="8.1/Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="containerName" value="hori-hori" />
+          <option name="sourceFilePath" value="hori-hori/vendor/laravel/sail/runtimes/8.1/Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/hori-hori/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="postinstall" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/hori-hori/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="postinstall" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.postinstall" />
+        <item itemvalue="npm.dev" />
+        <item itemvalue="Docker.8.1/Dockerfile" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -219,7 +258,10 @@
       <workItem from="1649064710197" duration="2948000" />
       <workItem from="1649149062069" duration="8402000" />
       <workItem from="1649235613455" duration="8281000" />
-      <workItem from="1649308372918" duration="3483000" />
+      <workItem from="1649308372918" duration="14392000" />
+      <workItem from="1649409871273" duration="4202000" />
+      <workItem from="1649674053983" duration="2822000" />
+      <workItem from="1649735425065" duration="13370000" />
     </task>
     <task id="LOCAL-00001" summary="aza">
       <created>1649237250576</created>
@@ -256,7 +298,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649248140217</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="make it better">
+      <created>1649312048623</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1649312048623</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -280,6 +329,7 @@
     <MESSAGE value="whdwhud" />
     <MESSAGE value="postgre" />
     <MESSAGE value="postgre db connection" />
-    <option name="LAST_COMMIT_MESSAGE" value="postgre db connection" />
+    <MESSAGE value="make it better" />
+    <option name="LAST_COMMIT_MESSAGE" value="make it better" />
   </component>
 </project>
