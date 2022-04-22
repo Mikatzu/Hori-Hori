@@ -1,0 +1,287 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "Reggae One";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/ReggaeOne-Regular.ttf");
+}
+/* Scroll 3 */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+  background-color: #1a202c;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 10px;
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  height: 85px;
+  left: 0px;
+  top: 0px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#000000), to(rgba(0, 0, 0, 0)));
+  background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+.catalog-button {
+  position: absolute;
+  left: 10%;
+  right: 60.44%;
+  top: 25%;
+  bottom: 100%;
+  text-decoration: none;
+  font-family: "Reggae One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 17px;
+  color: #FFFFFF;
+}
+
+.rectangle3 {
+  /* Rectangle 3 */
+  position: absolute;
+  left: 30%;
+  right: 60%;
+  top: 32.94%;
+  bottom: 20%;
+  border: 4px solid rgba(255, 255, 255, 0.6);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 62px;
+}
+
+body {
+  /* Main */
+  position: relative;
+  width: 1700px;
+  height: 3200px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#000000), color-stop(48.97%, #3B2A6B), to(#000000));
+  background: linear-gradient(180deg, #000000 0%, #3B2A6B 48.97%, #000000 100%);
+}
+
+.searchbar {
+  position: absolute;
+  left: 40.61%;
+  right: 37.17%;
+  top: 32.94%;
+  bottom: 20%;
+  border: 4px solid rgba(255, 255, 255, 0.7);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 62px;
+}
+
+.input-navbar {
+  position: absolute;
+  left: 40.61%;
+  right: 37.17%;
+  top: 32.94%;
+  bottom: 20%;
+  font-family: "Reggae One";
+  color: white;
+  background-color: transparent;
+  outline: none;
+  border: 4px solid rgba(255, 255, 255, 0.7);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 62px;
+}
+
+.search-button {
+  position: absolute;
+  left: 63.89%;
+  right: 33.89%;
+  top: 32.94%;
+  bottom: 20%;
+}
+
+.pfp {
+  position: absolute;
+  left: 92.89%;
+  right: 2.94%;
+  top: 11.76%;
+  bottom: 0%;
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 62px;
+}
+
+.bigtext {
+  position: absolute;
+  width: 442px;
+  height: 404px;
+  left: 218px;
+  top: 255px;
+}
+
+.bestsellers {
+  position: absolute;
+  width: 776px;
+  height: 98px;
+  left: 910px;
+  top: 200px;
+  font-family: "Reggae One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 93px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.bestseller1 {
+  position: absolute;
+  width: 218px;
+  height: 324px;
+  left: 910px;
+  top: 475px;
+}
+
+.bestseller1-t {
+  /* ELDEN RING Deluxe edition */
+  position: absolute;
+  width: 191px;
+  height: 73px;
+  top: 200px;
+  left: 10px;
+  font-family: "Reggae One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+
+.bestseller2 {
+  /* Bestseller 2 */
+  position: absolute;
+  width: 218px;
+  height: 324px;
+  left: 1208px;
+  top: 475px;
+}
+
+.bestseller2-t {
+  position: absolute;
+  width: 191px;
+  height: 31px;
+  top: 230px;
+  left: 10px;
+  font-family: "Reggae One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 30px;
+  /* identical to box height */
+  color: #FFFFFF;
+}
+
+.bestseller3 {
+  /* Bestseller 3 */
+  position: absolute;
+  width: 218px;
+  height: 324px;
+  left: 1506px;
+  top: 473px;
+}
+
+.bestseller3-t {
+  /* BATTLEFIELD 2042 */
+  position: absolute;
+  width: 191px;
+  height: 58px;
+  top: 230px;
+  left: 10px;
+  font-family: "Reggae One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+
+.regtangle_bestseller1 {
+  /* bestseller-1 */
+  position: absolute;
+  width: 218px;
+  height: 324px;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(51.19%, rgba(0, 0, 0, 0)), color-stop(93.75%, #000000));
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 51.19%, #000000 93.75%);
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 15px;
+}
+
+.regtangle_bestseller2 {
+  /* bestseller-2 */
+  position: absolute;
+  width: 218px;
+  height: 324px;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(51.19%, rgba(0, 0, 0, 0)), color-stop(93.75%, #000000));
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 51.19%, #000000 93.75%);
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 15px;
+}
+
+.regtangle_bestseller3 {
+  /* bestseller-3 */
+  position: absolute;
+  width: 218px;
+  height: 324px;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(51.19%, rgba(0, 0, 0, 0)), color-stop(93.75%, #000000));
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 51.19%, #000000 93.75%);
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 15px;
+}
+
+.bestcosts {
+  /* Лучшие скидки */
+  position: absolute;
+  width: 309px;
+  height: 317px;
+  left: 90px;
+  top: 893px;
+}
+
+.krugsupport {
+  /* Круглосуточная поддержка */
+  position: absolute;
+  width: 309px;
+  height: 317px;
+  left: 519px;
+  top: 900px;
+}
+
+.bestachievements {
+  /* Крутые достижения */
+  position: absolute;
+  width: 309px;
+  height: 294px;
+  left: 948px;
+  top: 932px;
+}
+
+.bestreviews {
+  /* Отличные отзывы */
+  position: absolute;
+  width: 309px;
+  height: 304px;
+  left: 1377px;
+  top: 920px;
+}
