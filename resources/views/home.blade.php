@@ -42,16 +42,16 @@
             <a href="" class="preorders"><div class="preorders_button">ПРЕДЗАКАЗЫ</div></a>
         </div>
         <div class="dynamic_products">
-            <a href="" class="dynamic_product"><div class="dynamic_product_rectangle"><img src="" alt="">Lorem ipsum dolor sit.</div></a>
-            <a href="" class="dynamic_product"><div class="dynamic_product_rectangle"><img src="" alt="">Lorem ipsum dolor sit.</div></a>
-            <a href="" class="dynamic_product"><div class="dynamic_product_rectangle"><img src="" alt="">Lorem ipsum dolor sit.</div></a>
-            <a href="" class="dynamic_product"><div class="dynamic_product_rectangle"><img src="" alt="">Lorem ipsum dolor sit.</div></a>
-            <a href="" class="dynamic_product"><div class="dynamic_product_rectangle"><img src="" alt="">Lorem ipsum dolor sit.</div></a>
-            <a href="" class="dynamic_product"><div class="dynamic_product_rectangle"><img src="" alt="">Lorem ipsum dolor sit.</div></a>
-            <a href="" class="dynamic_product"><div class="dynamic_product_rectangle"><img src="" alt="">Lorem ipsum dolor sit.</div></a>
-            <a href="" class="dynamic_product"><div class="dynamic_product_rectangle"><img src="" alt="">Lorem ipsum dolor sit.</div></a>
-            <a href="" class="dynamic_product"><div class="dynamic_product_rectangle"><img src="" alt="">Lorem ipsum dolor sit.</div></a>
-            <a href="" class="dynamic_product"><div class="dynamic_product_rectangle"><img src="" alt="">Lorem ipsum dolor sit.</div></a>
+            <div class="dynamic_product_rectangle"><a href="" class="dynamic_product">Lorem ipsum dolor sit.<img src="" alt=""></a></div>
+            <div class="dynamic_product_rectangle"><a href="" class="dynamic_product">Lorem ipsum dolor sit.<img src="" alt=""></a></div>
+            <div class="dynamic_product_rectangle"><a href="" class="dynamic_product">Lorem ipsum dolor sit.<img src="" alt=""></a></div>
+            <div class="dynamic_product_rectangle"><a href="" class="dynamic_product">Lorem ipsum dolor sit.<img src="" alt=""></a></div>
+            <div class="dynamic_product_rectangle"><a href="" class="dynamic_product">Lorem ipsum dolor sit.<img src="" alt=""></a></div>
+            <div class="dynamic_product_rectangle"><a href="" class="dynamic_product">Lorem ipsum dolor sit.<img src="" alt=""></a></div>
+            <div class="dynamic_product_rectangle"><a href="" class="dynamic_product">Lorem ipsum dolor sit.<img src="" alt=""></a></div>
+            <div class="dynamic_product_rectangle"><a href="" class="dynamic_product">Lorem ipsum dolor sit.<img src="" alt=""></a></div>
+            <div class="dynamic_product_rectangle"><a href="" class="dynamic_product">Lorem ipsum dolor sit.<img src="" alt=""></a></div>
+            <div class="dynamic_product_rectangle"><a href="" class="dynamic_product">Lorem ipsum dolor sit.<img src="" alt=""></a></div>
         </div>
     </div>
 
