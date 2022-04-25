@@ -1,16 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="077621cb-e038-4291-8a9a-a169dbca7287" name="Changes" comment="Second commit">
-      <change beforePath="$PROJECT_DIR$/.idea/Projects.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Projects.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="077621cb-e038-4291-8a9a-a169dbca7287" name="Changes" comment="5.0v">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hori-Hori/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Hori-Hori/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hori-Hori/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/Hori-Hori/public/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hori-Hori/resources/prepros.config" beforeDir="false" afterPath="$PROJECT_DIR$/Hori-Hori/resources/prepros.config" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hori-Hori/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Hori-Hori/resources/sass/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hori-Hori/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Hori-Hori/resources/views/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hori-Hori/.env" beforeDir="false" afterPath="$PROJECT_DIR$/Hori-Hori/.env" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,7 +183,7 @@
       <updated>1650530673983</updated>
       <workItem from="1650530677381" duration="8486000" />
       <workItem from="1650604859198" duration="22086000" />
-      <workItem from="1650864911545" duration="7377000" />
+      <workItem from="1650864911545" duration="10515000" />
     </task>
     <task id="LOCAL-00001" summary="Second commit">
       <created>1650629813357</created>
@@ -199,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650629813358</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="5.0v">
+      <created>1650881641763</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1650881641763</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,6 +218,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Second commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Second commit" />
+    <MESSAGE value="5.0v" />
+    <option name="LAST_COMMIT_MESSAGE" value="5.0v" />
   </component>
 </project>
