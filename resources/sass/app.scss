@@ -363,6 +363,16 @@ body {
 
 }
 
+.div3{
+    /* Div 3 */
+
+    position: absolute;
+    width: 1500px;
+    height: 464px;
+    left: 135px;
+    top: 2207px;
+}
+
 .sell_case{
     /* Sell case */
 
@@ -713,7 +723,6 @@ body {
 
     color: #000000;
 }
-
 .watch_all{
     /* Rectangle 6 */
 
@@ -728,4 +737,21 @@ body {
     border-radius: 62px;
 }
 
+.our_blogs_text{
+    /* НАШИ БЛОГИ */
+    position: absolute;
+    left: 28% ;
+    top: -10%;
+
+    font-family: 'Reggae One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 52px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
 

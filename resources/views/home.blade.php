@@ -55,6 +55,9 @@
         </div>
         <a href="" class="watch_all"><div class="watch_all_button">СМОТРЕТЬ ВСЕ</div></a>
     </div>
+    <div class="div3">
+        <div class="our_blogs_text"><h1>НАШИ БЛОГИ</h1></div>
 
+    </div>
 </body>
 </html>
