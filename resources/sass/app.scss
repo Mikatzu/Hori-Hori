@@ -693,3 +693,39 @@ body {
     box-sizing: border-box;
     border-radius: 15px;
 }
+
+.watch_all_button{
+    /* СМОТРЕТЬ ВСЕ */
+
+
+    position: absolute;
+    left: 11%;
+    top: 5%;
+
+    font-family: 'Reggae One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+}
+
+.watch_all{
+    /* Rectangle 6 */
+
+
+    position: absolute;
+    left: 36.85%;
+    right: 41.33%;
+    top: 84.34%;
+    bottom: 11.57%;
+
+    background: #C4C4C4;
+    border-radius: 62px;
+}
+
+

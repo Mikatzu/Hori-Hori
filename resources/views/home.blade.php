@@ -53,6 +53,7 @@
             <div class="dynamic_product_rectangle9"><a href="" class="dynamic_product9">Lorem ipsum dolor sit9.<img src="" alt=""></a></div>
             <div class="dynamic_product_rectangle10"><a href="" class="dynamic_product10">Lorem ipsum dolor sit10.<img src="" alt=""></a></div>
         </div>
+        <a href="" class="watch_all"><div class="watch_all_button">СМОТРЕТЬ ВСЕ</div></a>
     </div>
 
 </body>
