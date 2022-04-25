@@ -1,34 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="077621cb-e038-4291-8a9a-a169dbca7287" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/hori-hori/resources/sass/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9bda7ab2-8153-4839-be98-53dac7f517b9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9bda7ab2-8153-4839-be98-53dac7f517b9/storage_v2/_src_/database/d1s4q7p0lhu3vl.ZAwBYA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9bda7ab2-8153-4839-be98-53dac7f517b9/storage_v2/_src_/database/d1s4q7p0lhu3vl.ZAwBYA/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9bda7ab2-8153-4839-be98-53dac7f517b9/storage_v2/_src_/database/d1s4q7p0lhu3vl.ZAwBYA/schema/information_schema.FNRwLQ.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9bda7ab2-8153-4839-be98-53dac7f517b9/storage_v2/_src_/database/d1s4q7p0lhu3vl.ZAwBYA/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9bda7ab2-8153-4839-be98-53dac7f517b9/storage_v2/_src_/database/d1s4q7p0lhu3vl.ZAwBYA/schema/pg_catalog.0S1ZNQ.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9bda7ab2-8153-4839-be98-53dac7f517b9/storage_v2/_src_/database/d1s4q7p0lhu3vl.ZAwBYA/schema/public.abK9xQ.meta" beforeDir="false" />
+    <list default="true" id="077621cb-e038-4291-8a9a-a169dbca7287" name="Changes" comment="Second commit">
+      <change beforePath="$PROJECT_DIR$/.idea/Projects.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Projects.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/hori-hori" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]1/hori-hori" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.phar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hori-hori" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hori-Hori/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Hori-Hori/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hori-Hori/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/Hori-Hori/public/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hori-Hori/resources/prepros.config" beforeDir="false" afterPath="$PROJECT_DIR$/Hori-Hori/resources/prepros.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hori-Hori/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Hori-Hori/resources/sass/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hori-Hori/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Hori-Hori/resources/views/home.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/hori-hori/composer.json</pharConfigPath>
     <execution />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Hori-Hori" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -154,7 +148,11 @@
       <path value="$PROJECT_DIR$/hori-hori/vendor/psr/simple-cache" />
     </include_path>
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
   <component name="ProjectId" id="286IaQDcn0GzBsxzR100zjWoIpE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -167,7 +165,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/hori-hori/public/image" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.DirectoryMappings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -191,8 +189,17 @@
       <option name="presentableId" value="Default" />
       <updated>1650530673983</updated>
       <workItem from="1650530677381" duration="8486000" />
-      <workItem from="1650604859198" duration="21734000" />
+      <workItem from="1650604859198" duration="22086000" />
+      <workItem from="1650864911545" duration="7377000" />
     </task>
+    <task id="LOCAL-00001" summary="Second commit">
+      <created>1650629813357</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1650629813358</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,5 +215,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Second commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Second commit" />
   </component>
 </project>
