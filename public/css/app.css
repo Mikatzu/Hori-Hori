@@ -417,29 +417,18 @@ body {
 
 .dynamic_products {
   /* Dynamic Products */
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  display: -ms-grid;
-  display: grid;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  position: absolute;
   width: 1400px;
   height: 650px;
   left: 87px;
   top: 127px;
-  grid-column-gap: 90px;
-  grid-row-gap: 30px;
-  -ms-grid-columns: 200px 90px 200px 90px 200px 90px 200px 90px 200px;
-  grid-template-columns: 200px 200px 200px 200px 200px;
 }
 
-.dynamic_product {
+.dynamic_product1 {
   text-decoration: none;
-  vertical-align: bottom;
+  position: absolute;
+  left: 5%;
+  top: 75%;
+  bottom: 9%;
   font-family: "Reggae One";
   font-style: normal;
   font-weight: 400;
@@ -448,10 +437,276 @@ body {
   color: #FFFFFF;
 }
 
-.dynamic_product_rectangle {
+.dynamic_product_rectangle1 {
   /* dynamic-product-rectangle */
+  position: absolute;
   width: 200px;
   height: 300px;
+  left: 87px;
+  top: 127px;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(51.19%, rgba(0, 0, 0, 0)), color-stop(93.75%, #000000));
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 51.19%, #000000 93.75%);
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 15px;
+}
+
+.dynamic_product2 {
+  text-decoration: none;
+  position: absolute;
+  left: 5%;
+  top: 75%;
+  bottom: 9%;
+  font-family: "Reggae One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+
+.dynamic_product_rectangle2 {
+  position: absolute;
+  width: 200px;
+  height: 300px;
+  left: 387px;
+  top: 127px;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(51.19%, rgba(0, 0, 0, 0)), color-stop(93.75%, #000000));
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 51.19%, #000000 93.75%);
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 15px;
+}
+
+.dynamic_product3 {
+  /* Dynamic Products */
+  text-decoration: none;
+  position: absolute;
+  left: 5%;
+  top: 75%;
+  bottom: 9%;
+  font-family: "Reggae One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+
+.dynamic_product_rectangle3 {
+  /* dynamic-product-rectangle */
+  position: absolute;
+  width: 200px;
+  height: 300px;
+  left: 687px;
+  top: 127px;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(51.19%, rgba(0, 0, 0, 0)), color-stop(93.75%, #000000));
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 51.19%, #000000 93.75%);
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 15px;
+}
+
+.dynamic_product4 {
+  /* Dynamic Products */
+  text-decoration: none;
+  position: absolute;
+  left: 5%;
+  top: 75%;
+  bottom: 9%;
+  font-family: "Reggae One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+
+.dynamic_product_rectangle4 {
+  /* dynamic-product-rectangle */
+  position: absolute;
+  width: 200px;
+  height: 300px;
+  left: 987px;
+  top: 127px;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(51.19%, rgba(0, 0, 0, 0)), color-stop(93.75%, #000000));
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 51.19%, #000000 93.75%);
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 15px;
+}
+
+.dynamic_product5 {
+  /* Dynamic Products */
+  text-decoration: none;
+  position: absolute;
+  left: 5%;
+  top: 75%;
+  bottom: 9%;
+  font-family: "Reggae One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+
+.dynamic_product_rectangle5 {
+  /* dynamic-product-rectangle */
+  position: absolute;
+  width: 200px;
+  height: 300px;
+  left: 1287px;
+  top: 127px;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(51.19%, rgba(0, 0, 0, 0)), color-stop(93.75%, #000000));
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 51.19%, #000000 93.75%);
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 15px;
+}
+
+.dynamic_product6 {
+  text-decoration: none;
+  position: absolute;
+  left: 5%;
+  top: 75%;
+  bottom: 9%;
+  font-family: "Reggae One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+
+.dynamic_product_rectangle6 {
+  /* dynamic-product-rectangle */
+  position: absolute;
+  width: 200px;
+  height: 300px;
+  left: 87px;
+  top: 477px;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(51.19%, rgba(0, 0, 0, 0)), color-stop(93.75%, #000000));
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 51.19%, #000000 93.75%);
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 15px;
+}
+
+.dynamic_product7 {
+  text-decoration: none;
+  position: absolute;
+  left: 5%;
+  top: 75%;
+  bottom: 9%;
+  font-family: "Reggae One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+
+.dynamic_product_rectangle7 {
+  /* dynamic-product-rectangle */
+  position: absolute;
+  width: 200px;
+  height: 300px;
+  left: 387px;
+  top: 477px;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(51.19%, rgba(0, 0, 0, 0)), color-stop(93.75%, #000000));
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 51.19%, #000000 93.75%);
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 15px;
+}
+
+.dynamic_product8 {
+  text-decoration: none;
+  position: absolute;
+  left: 5%;
+  top: 75%;
+  bottom: 9%;
+  font-family: "Reggae One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+
+.dynamic_product_rectangle8 {
+  /* dynamic-product-rectangle */
+  position: absolute;
+  width: 200px;
+  height: 300px;
+  left: 687px;
+  top: 477px;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(51.19%, rgba(0, 0, 0, 0)), color-stop(93.75%, #000000));
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 51.19%, #000000 93.75%);
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 15px;
+}
+
+.dynamic_product9 {
+  text-decoration: none;
+  position: absolute;
+  left: 5%;
+  top: 75%;
+  bottom: 9%;
+  font-family: "Reggae One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+
+.dynamic_product_rectangle9 {
+  /* dynamic-product-rectangle */
+  position: absolute;
+  width: 200px;
+  height: 300px;
+  left: 987px;
+  top: 477px;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(51.19%, rgba(0, 0, 0, 0)), color-stop(93.75%, #000000));
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 51.19%, #000000 93.75%);
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 15px;
+}
+
+.dynamic_product10 {
+  text-decoration: none;
+  position: absolute;
+  left: 5%;
+  top: 75%;
+  bottom: 9%;
+  font-family: "Reggae One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+
+.dynamic_product_rectangle10 {
+  /* dynamic-product-rectangle */
+  position: absolute;
+  width: 200px;
+  height: 300px;
+  left: 1287px;
+  top: 477px;
   background: -webkit-gradient(linear, left top, left bottom, color-stop(51.19%, rgba(0, 0, 0, 0)), color-stop(93.75%, #000000));
   background: linear-gradient(180deg, rgba(0, 0, 0, 0) 51.19%, #000000 93.75%);
   border: 1px solid rgba(255, 255, 255, 0.8);

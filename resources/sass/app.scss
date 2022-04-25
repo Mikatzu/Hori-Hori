@@ -20,6 +20,7 @@
     border-radius: 10px;
 }
 
+
 body {
     /* Main */
     position: relative;
@@ -480,26 +481,12 @@ body {
     color: #FFFFFF;
     }
 
-.dynamic_products{
-    /* Dynamic Products */
-    justify-content: center;
-    display: grid;
-    flex-direction: row;
-    position: absolute;
-    width: 1400px;
-    height: 650px;
-    left: 87px;
-    top: 127px;
-    grid-column-gap: 90px;
-    grid-row-gap: 30px;
-    grid-template-columns: 200px 200px 200px 200px 200px;
-
-}
-
-
-.dynamic_product{
+@mixin dynamic_product_text{
     text-decoration: none;
-    vertical-align: bottom;
+    position: absolute;
+    left: 5%;
+    top: 75%;
+    bottom: 9%;
 
     font-family: 'Reggae One';
     font-style: normal;
@@ -510,13 +497,24 @@ body {
     color: #FFFFFF;
 }
 
+.dynamic_products{
+    /* Dynamic Products */
+    width: 1400px;
+    height: 650px;
+    left: 87px;
+    top: 127px;
+}
 
-.dynamic_product_rectangle{
+.dynamic_product1{
+    @include dynamic_product_text;
+}
+.dynamic_product_rectangle1{
     /* dynamic-product-rectangle */
-
+    position: absolute;
     width: 200px;
     height: 300px;
-
+    left: 87px;
+    top: 127px;
 
     background: linear-gradient(180deg, rgba(0, 0, 0, 0) 51.19%, #000000 93.75%);
     border: 1px solid rgba(255, 255, 255, 0.8);
@@ -524,8 +522,174 @@ body {
     border-radius: 15px;
 }
 
+.dynamic_product2{
+    @include dynamic_product_text;
+}
+.dynamic_product_rectangle2{
+    position: absolute;
+    width: 200px;
+    height: 300px;
+    left: 387px;
+    top: 127px;
+
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 51.19%, #000000 93.75%);
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+.dynamic_product3{
+    /* Dynamic Products */
+    @include dynamic_product_text;
+}
+.dynamic_product_rectangle3 {
+    /* dynamic-product-rectangle */
 
 
+    position: absolute;
+    width: 200px;
+    height: 300px;
+    left: 687px;
+    top: 127px;
+
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 51.19%, #000000 93.75%);
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+.dynamic_product4{
+    /* Dynamic Products */
+    @include dynamic_product_text;
+
+}
+.dynamic_product_rectangle4{
+    /* dynamic-product-rectangle */
 
 
+    position: absolute;
+    width: 200px;
+    height: 300px;
+    left: 987px;
+    top: 127px;
 
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 51.19%, #000000 93.75%);
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+.dynamic_product5{
+    /* Dynamic Products */
+    @include dynamic_product_text;
+
+}
+.dynamic_product_rectangle5{
+    /* dynamic-product-rectangle */
+
+    position: absolute;
+    width: 200px;
+    height: 300px;
+    left: 1287px;
+    top: 127px;
+
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 51.19%, #000000 93.75%);
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+.dynamic_product6{
+    @include dynamic_product_text;
+}
+.dynamic_product_rectangle6{
+    /* dynamic-product-rectangle */
+
+
+    position: absolute;
+    width: 200px;
+    height: 300px;
+    left: 87px;
+    top: 477px;
+
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 51.19%, #000000 93.75%);
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+.dynamic_product7{
+    @include dynamic_product_text;
+}
+.dynamic_product_rectangle7{
+    /* dynamic-product-rectangle */
+
+
+    position: absolute;
+    width: 200px;
+    height: 300px;
+    left: 387px;
+    top: 477px;
+
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 51.19%, #000000 93.75%);
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+.dynamic_product8{
+    @include dynamic_product_text;
+}
+.dynamic_product_rectangle8{
+    /* dynamic-product-rectangle */
+
+
+    position: absolute;
+    width: 200px;
+    height: 300px;
+    left: 687px;
+    top: 477px;
+
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 51.19%, #000000 93.75%);
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+.dynamic_product9{
+    @include dynamic_product_text;
+}
+.dynamic_product_rectangle9{
+    /* dynamic-product-rectangle */
+
+
+    position: absolute;
+    width: 200px;
+    height: 300px;
+    left: 987px;
+    top: 477px;
+
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 51.19%, #000000 93.75%);
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+.dynamic_product10{
+    @include dynamic_product_text;
+}
+.dynamic_product_rectangle10{
+    /* dynamic-product-rectangle */
+
+
+    position: absolute;
+    width: 200px;
+    height: 300px;
+    left: 1287px;
+    top: 477px;
+
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 51.19%, #000000 93.75%);
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    box-sizing: border-box;
+    border-radius: 15px;
+}
