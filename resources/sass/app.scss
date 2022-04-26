@@ -23,9 +23,9 @@
 
 body {
     /* Main */
-    position: relative;
-    width: 1700px;
-    height: 3200px;
+    position: absolute;
+   // width: 1700px;
+   // height: 3200px;
 
     background: linear-gradient(180deg, #000000 0%, #3B2A6B 48.97%, #000000 100%);
 }
@@ -125,6 +125,7 @@ body {
 
     .pfp {
         position: absolute;
+        max-width: 100%;
         left: 92.89%;
         right: 2.94%;
         top: 11.76%;
@@ -754,4 +755,63 @@ body {
 
     color: #FFFFFF;
 }
+
+@mixin blogfigure{
+    top: 100px;
+    position: absolute;
+    width: 300px;
+    height: 330px;
+
+    background: rgba(196, 196, 196, 0.25);
+}
+@mixin blogtext {
+    position: absolute;
+    left: 2%;
+    top: 250px;
+
+    font-family: 'Reggae One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+.blog1{
+    @include blogfigure;
+}
+.blogtext1{
+    @include blogtext;
+}
+
+.blog2{
+    @include blogfigure;
+    left: 25%;
+}
+.blogtext2{
+    @include blogtext;
+
+}
+
+.blog3{
+    @include blogfigure;
+    left: 50%;
+}
+
+.blogtext3{
+    @include blogtext;
+}
+
+.blog4{
+    left: 75%;
+    @include blogfigure;
+}
+
+.blogtext4{
+    @include blogtext;
+}
+
 

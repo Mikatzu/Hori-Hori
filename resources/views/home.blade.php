@@ -57,7 +57,10 @@
     </div>
     <div class="div3">
         <div class="our_blogs_text"><h1>НАШИ БЛОГИ</h1></div>
-
+        <div class="blog1"><a href="" class="blogtext1">Lorem ipsum dolor sit amet, consectetur adipisicing.</a></div>
+        <div class="blog2"><a href="" class="blogtext2">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></div>
+        <div class="blog3"><a href="" class="blogtext3">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></div>
+        <div class="blog4"><a href="" class="blogtext4">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></div>
     </div>
 </body>
 </html>
