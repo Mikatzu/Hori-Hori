@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="077621cb-e038-4291-8a9a-a169dbca7287" name="Changes" comment="7.0v">
+    <list default="true" id="077621cb-e038-4291-8a9a-a169dbca7287" name="Changes" comment="8.0v">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Hori-Hori/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/Hori-Hori/public/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hori-Hori/resources/prepros.config" beforeDir="false" afterPath="$PROJECT_DIR$/Hori-Hori/resources/prepros.config" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Hori-Hori/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Hori-Hori/resources/sass/app.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Hori-Hori/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Hori-Hori/resources/views/home.blade.php" afterDir="false" />
     </list>
@@ -159,18 +163,20 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/hori-hori/public/image" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Hori-Hori/public/image" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.DirectoryMappings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Projects\Hori-Hori\public\image" />
       <recent name="C:\Projects\hori-hori\public\image" />
       <recent name="C:\Projects\hori-hori\resources\views" />
       <recent name="C:\Projects\hori-hori\resources\sass" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Projects\Hori-Hori\public\image" />
       <recent name="C:\Projects\hori-hori\public\image" />
       <recent name="C:\Projects\hori-hori\public\fonts" />
       <recent name="C:\Projects\hori-hori" />
@@ -187,7 +193,10 @@
       <workItem from="1650530677381" duration="8486000" />
       <workItem from="1650604859198" duration="22086000" />
       <workItem from="1650864911545" duration="11642000" />
-      <workItem from="1650888409250" duration="2693000" />
+      <workItem from="1650888409250" duration="2992000" />
+      <workItem from="1650958119517" duration="5688000" />
+      <workItem from="1650976840269" duration="82000" />
+      <workItem from="1651033386716" duration="21214000" />
     </task>
     <task id="LOCAL-00001" summary="Second commit">
       <created>1650629813357</created>
@@ -217,7 +226,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650890289998</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="8.0v">
+      <created>1650891399233</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1650891399233</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -235,10 +251,14 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/Hori-Hori" />
+    </ignored-roots>
     <MESSAGE value="Second commit" />
     <MESSAGE value="5.0v" />
     <MESSAGE value="6.0v" />
     <MESSAGE value="7.0v" />
-    <option name="LAST_COMMIT_MESSAGE" value="7.0v" />
+    <MESSAGE value="8.0v" />
+    <option name="LAST_COMMIT_MESSAGE" value="8.0v" />
   </component>
 </project>
