@@ -23,9 +23,9 @@
 
 body {
     /* Main */
-    position: absolute;
-   // width: 1700px;
-   // height: 3200px;
+   // position: absolute;
+    width: 90%;
+    height: 3200px;
 
     background: linear-gradient(180deg, #000000 0%, #3B2A6B 48.97%, #000000 100%);
 }
@@ -317,6 +317,11 @@ body {
 }
 
 .div2{
+    /* Review */
+    position: absolute;
+    width: 1596px;
+    left: 1%;
+
     .bestcosts{
     /* Лучшие скидки */
 
@@ -814,4 +819,82 @@ body {
     @include blogtext;
 }
 
+.downcase{
+    /* Down case */
+    position: absolute;
+    width: 1800px;
+    height: 518px;
+    left: 0px;
+    top: 2738px;
+}
 
+.line{
+    position: absolute;
+    left: 5.56%;
+    right: 5.56%;
+    bottom: 100%;
+}
+@mixin footer_down_text{
+    /* О НАС */
+
+    text-decoration: none;
+    position: absolute;
+    top: 21.81%;
+    bottom: 73.17%;
+
+    font-family: 'Reggae One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.01em;
+
+    color: #FFFFFF;
+}
+.about{
+    @include footer_down_text;
+    left: 25%;
+}
+.creators{
+    @include footer_down_text;
+    left: 33%;
+}
+.catalog{
+    @include footer_down_text;
+    left: 47%;
+}
+.creator_portfolio{
+    @include footer_down_text;
+    left: 58%;
+}
+
+.attention-dp{
+    position: absolute;
+    left: 34.39%;
+    right: 34.44%;
+    top: 63.51%;
+    bottom: 17.37%;
+
+    font-family: 'Reggae One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.01em;
+
+    color: #FFFFFF;
+}
+
+.hori_sign_down_case{
+    position: absolute;
+    left: 2.94%;
+    right: 84.72%;
+    top: 13.9%;
+    bottom: 43.24%;
+}

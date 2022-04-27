@@ -62,5 +62,21 @@
         <div class="blog3"><a href="" class="blogtext3">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></div>
         <div class="blog4"><a href="" class="blogtext4">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></div>
     </div>
+
+    <div class="downcase">
+        <div class="line">
+            <img src="/image/line.svg" alt="">
+        </div>
+        <div class="hori_sign_down_case">
+            <img src="/image/Hori_sign_larger.svg" alt="">
+        </div>
+        <div class="down_case_links">
+            <a href="" class="about">О НАС</a>
+            <a href="" class="creators">СОЗДАТЕЛИ</a>
+            <a href="" class="catalog">КАТАЛОГ</a>
+            <a href="" class="creator_portfolio">САЙТ ПОРТФОЛИО СОЗДАТЕЛЯ</a>
+            <p class="attention-dp">ЭТОТ ПРОЕКТ БЫЛ СОЗДАН ДЛЯ ДИПЛОМНОЙ РАБОТЫ И ДЛЯ ПОРТФОЛИО</p>
+        </div>
+    </div>
 </body>
 </html>
