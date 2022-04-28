@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="077621cb-e038-4291-8a9a-a169dbca7287" name="Changes" comment="8.0v">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="077621cb-e038-4291-8a9a-a169dbca7287" name="Changes" comment="9.0v">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Hori-Hori/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/Hori-Hori/public/css/app.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Hori-Hori/resources/prepros.config" beforeDir="false" afterPath="$PROJECT_DIR$/Hori-Hori/resources/prepros.config" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Hori-Hori/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Hori-Hori/resources/sass/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hori-Hori/resources/views/about.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Hori-Hori/resources/views/about.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hori-Hori/resources/views/catalog.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Hori-Hori/resources/views/catalog.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Hori-Hori/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Hori-Hori/resources/views/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hori-Hori/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/Hori-Hori/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -196,7 +196,8 @@
       <workItem from="1650888409250" duration="2992000" />
       <workItem from="1650958119517" duration="5688000" />
       <workItem from="1650976840269" duration="82000" />
-      <workItem from="1651033386716" duration="21214000" />
+      <workItem from="1651033386716" duration="21457000" />
+      <workItem from="1651114503086" duration="20503000" />
     </task>
     <task id="LOCAL-00001" summary="Second commit">
       <created>1650629813357</created>
@@ -233,7 +234,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650891399233</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="9.0v">
+      <created>1651062440628</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1651062440628</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -259,6 +267,7 @@
     <MESSAGE value="6.0v" />
     <MESSAGE value="7.0v" />
     <MESSAGE value="8.0v" />
-    <option name="LAST_COMMIT_MESSAGE" value="8.0v" />
+    <MESSAGE value="9.0v" />
+    <option name="LAST_COMMIT_MESSAGE" value="9.0v" />
   </component>
 </project>
