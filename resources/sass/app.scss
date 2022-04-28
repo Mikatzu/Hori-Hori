@@ -27,6 +27,7 @@ body {
     width: 90%;
     height: 3200px;
 
+  //  background-image: url("public/image/background.svg");
     background: linear-gradient(180deg, #000000 0%, #3B2A6B 48.97%, #000000 100%);
 }
 
@@ -499,11 +500,6 @@ body {
 
 @mixin dynamic_product_text{
     text-decoration: none;
-    position: absolute;
-    left: 5%;
-    top: 75%;
-    bottom: 9%;
-
     font-family: 'Reggae One';
     font-style: normal;
     font-weight: 400;
@@ -514,23 +510,20 @@ body {
 }
 
 .dynamic_products{
-    /* Dynamic Products */
-    width: 1400px;
-    height: 650px;
-    left: 87px;
-    top: 127px;
+    left: 3%;
+    padding: 3%;
+   // justify-items: end;
+    grid-gap: 100px;
+    display: grid;
+   // align-content: end;
+    grid-template-columns: 200px 200px 200px 200px 200px;
+;
 }
 
-.dynamic_product1{
-    @include dynamic_product_text;
-}
-.dynamic_product_rectangle1{
-    /* dynamic-product-rectangle */
-    position: absolute;
+.dynamic_product_rectangle{
+
     width: 200px;
     height: 300px;
-    left: 87px;
-    top: 127px;
 
     background: linear-gradient(180deg, rgba(0, 0, 0, 0) 51.19%, #000000 93.75%);
     border: 1px solid rgba(255, 255, 255, 0.8);
@@ -538,176 +531,12 @@ body {
     border-radius: 15px;
 }
 
-.dynamic_product2{
+.catalog_text_main{
     @include dynamic_product_text;
-}
-.dynamic_product_rectangle2{
-    position: absolute;
-    width: 200px;
-    height: 300px;
-    left: 387px;
-    top: 127px;
-
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 51.19%, #000000 93.75%);
-    border: 1px solid rgba(255, 255, 255, 0.8);
-    box-sizing: border-box;
-    border-radius: 15px;
-}
-
-.dynamic_product3{
-    /* Dynamic Products */
-    @include dynamic_product_text;
-}
-.dynamic_product_rectangle3 {
-    /* dynamic-product-rectangle */
-
-
-    position: absolute;
-    width: 200px;
-    height: 300px;
-    left: 687px;
-    top: 127px;
-
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 51.19%, #000000 93.75%);
-    border: 1px solid rgba(255, 255, 255, 0.8);
-    box-sizing: border-box;
-    border-radius: 15px;
-}
-
-.dynamic_product4{
-    /* Dynamic Products */
-    @include dynamic_product_text;
-
-}
-.dynamic_product_rectangle4{
-    /* dynamic-product-rectangle */
-
-
-    position: absolute;
-    width: 200px;
-    height: 300px;
-    left: 987px;
-    top: 127px;
-
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 51.19%, #000000 93.75%);
-    border: 1px solid rgba(255, 255, 255, 0.8);
-    box-sizing: border-box;
-    border-radius: 15px;
-}
-
-.dynamic_product5{
-    /* Dynamic Products */
-    @include dynamic_product_text;
-
-}
-.dynamic_product_rectangle5{
-    /* dynamic-product-rectangle */
-
-    position: absolute;
-    width: 200px;
-    height: 300px;
-    left: 1287px;
-    top: 127px;
-
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 51.19%, #000000 93.75%);
-    border: 1px solid rgba(255, 255, 255, 0.8);
-    box-sizing: border-box;
-    border-radius: 15px;
-}
-
-.dynamic_product6{
-    @include dynamic_product_text;
-}
-.dynamic_product_rectangle6{
-    /* dynamic-product-rectangle */
-
-
-    position: absolute;
-    width: 200px;
-    height: 300px;
-    left: 87px;
-    top: 477px;
-
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 51.19%, #000000 93.75%);
-    border: 1px solid rgba(255, 255, 255, 0.8);
-    box-sizing: border-box;
-    border-radius: 15px;
-}
-
-.dynamic_product7{
-    @include dynamic_product_text;
-}
-.dynamic_product_rectangle7{
-    /* dynamic-product-rectangle */
-
-
-    position: absolute;
-    width: 200px;
-    height: 300px;
-    left: 387px;
-    top: 477px;
-
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 51.19%, #000000 93.75%);
-    border: 1px solid rgba(255, 255, 255, 0.8);
-    box-sizing: border-box;
-    border-radius: 15px;
-}
-
-.dynamic_product8{
-    @include dynamic_product_text;
-}
-.dynamic_product_rectangle8{
-    /* dynamic-product-rectangle */
-
-
-    position: absolute;
-    width: 200px;
-    height: 300px;
-    left: 687px;
-    top: 477px;
-
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 51.19%, #000000 93.75%);
-    border: 1px solid rgba(255, 255, 255, 0.8);
-    box-sizing: border-box;
-    border-radius: 15px;
-}
-
-.dynamic_product9{
-    @include dynamic_product_text;
-}
-.dynamic_product_rectangle9{
-    /* dynamic-product-rectangle */
-
-
-    position: absolute;
-    width: 200px;
-    height: 300px;
-    left: 987px;
-    top: 477px;
-
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 51.19%, #000000 93.75%);
-    border: 1px solid rgba(255, 255, 255, 0.8);
-    box-sizing: border-box;
-    border-radius: 15px;
-}
-
-.dynamic_product10{
-    @include dynamic_product_text;
-}
-.dynamic_product_rectangle10{
-    /* dynamic-product-rectangle */
-
-
-    position: absolute;
-    width: 200px;
-    height: 300px;
-    left: 1287px;
-    top: 477px;
-
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 51.19%, #000000 93.75%);
-    border: 1px solid rgba(255, 255, 255, 0.8);
-    box-sizing: border-box;
-    border-radius: 15px;
+    text-align: left;
+    position: relative;
+    top: 230px;
+    left: 5%;
 }
 
 .watch_all_button{
@@ -716,7 +545,7 @@ body {
 
     position: absolute;
     left: 11%;
-    top: 5%;
+
 
     font-family: 'Reggae One';
     font-style: normal;
@@ -770,6 +599,7 @@ body {
     background: rgba(196, 196, 196, 0.25);
 }
 @mixin blogtext {
+    text-decoration: none;
     position: absolute;
     left: 2%;
     top: 250px;
@@ -897,4 +727,32 @@ body {
     right: 84.72%;
     top: 13.9%;
     bottom: 43.24%;
+}
+
+.vk{
+    position: absolute;
+    left: 74.44%;
+    right: 22.78%;
+    bottom: 85%;
+}
+
+.telegram{
+    position: absolute;
+    left: 80%;
+    right: 17.22%;
+    bottom: 85%;
+}
+
+.youtube{
+    position: absolute;
+    left: 85.56%;
+    right: 11.67%;
+    bottom: 85%;
+}
+
+.discord{
+    position: absolute;
+    left: 91.11%;
+    right: 5.56%;
+    bottom: 85%;
 }

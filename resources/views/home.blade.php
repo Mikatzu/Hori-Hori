@@ -1,25 +1,6 @@
-<!doctype html>
-<html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <!--  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">  -->
-    <link rel="stylesheet" href="css/app.css">
-    <title>Hori-Hori</title>
-</head>
-<body>
-    <div class="navbargroup">
-    <div class="navbar">
-        <a href="" class="hori-sign"><img src="/image/Hori_sign.svg" alt=""></a>
-        <a href="" class="catalog-button"><div class="rectangle3">КАТАЛОГ</div></a>
-        <div class ='rectangle1'><input class="input-navbar" type="text" placeholder=""></div>
-        <div class="search-button"><a href="" class="search-pic"><img src="/image/Search_button.svg" alt=""></a></div>
-        <a href=""><div class="pfp"></div></a>
-    </div>
-    </div>
-
+@extends('layout')
+@section('title')Hori-Hori Магазин цифровых видеоигр. Покупай, Играй, Наслаждайся!@endsection
+@section('main_content')
     <div class="div1">
         <div class="bigtext"><img src="/image/Hori_bigtext.svg" alt=""></div>
         <div class="bestsellers"><p>Бестселлеры</p></div>
@@ -42,18 +23,18 @@
             <a href="" class="preorders"><div class="preorders_button">ПРЕДЗАКАЗЫ</div></a>
         </div>
         <div class="dynamic_products">
-            <div class="dynamic_product_rectangle1"><a href="" class="dynamic_product1">Lorem ipsum dolor sit1.<img src="" alt=""></a></div>
-            <div class="dynamic_product_rectangle2"><a href="" class="dynamic_product2">Lorem ipsum dolor sit2.<img src="" alt=""></a></div>
-            <div class="dynamic_product_rectangle3"><a href="" class="dynamic_product3">Lorem ipsum dolor sit3.<img src="" alt=""></a></div>
-            <div class="dynamic_product_rectangle4"><a href="" class="dynamic_product4">Lorem ipsum dolor sit4.<img src="" alt=""></a></div>
-            <div class="dynamic_product_rectangle5"><a href="" class="dynamic_product5">Lorem ipsum dolor sit5.<img src="" alt=""></a></div>
-            <div class="dynamic_product_rectangle6"><a href="" class="dynamic_product6">Lorem ipsum dolor sit6.<img src="" alt=""></a></div>
-            <div class="dynamic_product_rectangle7"><a href="" class="dynamic_product7">Lorem ipsum dolor sit7.<img src="" alt=""></a></div>
-            <div class="dynamic_product_rectangle8"><a href="" class="dynamic_product8">Lorem ipsum dolor sit8.<img src="" alt=""></a></div>
-            <div class="dynamic_product_rectangle9"><a href="" class="dynamic_product9">Lorem ipsum dolor sit9.<img src="" alt=""></a></div>
-            <div class="dynamic_product_rectangle10"><a href="" class="dynamic_product10">Lorem ipsum dolor sit10.<img src="" alt=""></a></div>
+            <div class="dynamic_product_rectangle"><a href="" ><img src="" alt=""><a href="" class="catalog_text_main">Lorem ipsum dolor sit1.</a>  </a></div>
+            <div class="dynamic_product_rectangle"><a href="" ><img src="" alt=""><a href="" class="catalog_text_main">Lorem ipsum dolor sit2.</a>  </a></div>
+            <div class="dynamic_product_rectangle"><a href="" ><img src="" alt=""><a href="" class="catalog_text_main">Lorem ipsum dolor sit3.</a>  </a></div>
+            <div class="dynamic_product_rectangle"><a href="" ><img src="" alt=""><a href="" class="catalog_text_main">Lorem ipsum dolor sit4.</a>  </a></div>
+            <div class="dynamic_product_rectangle"><a href="" ><img src="" alt=""><a href="" class="catalog_text_main">Lorem ipsum dolor sit5.</a>  </a></div>
+            <div class="dynamic_product_rectangle"><a href="" ><img src="" alt=""><a href="" class="catalog_text_main">Lorem ipsum dolor sit6.</a>  </a></div>
+            <div class="dynamic_product_rectangle"><a href="" ><img src="" alt=""><a href="" class="catalog_text_main">Lorem ipsum dolor sit7.</a>  </a></div>
+            <div class="dynamic_product_rectangle"><a href="" ><img src="" alt=""><a href="" class="catalog_text_main">Lorem ipsum dolor sit8.</a>  </a></div>
+            <div class="dynamic_product_rectangle"><a href="" ><img src="" alt=""><a href="" class="catalog_text_main">Lorem ipsum dolor sit9.</a>  </a></div>
+            <div class="dynamic_product_rectangle"><a href="" ><img src="" alt=""><a href="" class="catalog_text_main">Lorem ipsum dolor sit10.</a> </a></div>
         </div>
-        <a href="" class="watch_all"><div class="watch_all_button">СМОТРЕТЬ ВСЕ</div></a>
+        <a href="/catalog" class="watch_all"><div class="watch_all_button">СМОТРЕТЬ ВСЕ</div></a>
     </div>
     <div class="div3">
         <div class="our_blogs_text"><h1>НАШИ БЛОГИ</h1></div>
@@ -62,21 +43,4 @@
         <div class="blog3"><a href="" class="blogtext3">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></div>
         <div class="blog4"><a href="" class="blogtext4">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></div>
     </div>
-
-    <div class="downcase">
-        <div class="line">
-            <img src="/image/line.svg" alt="">
-        </div>
-        <div class="hori_sign_down_case">
-            <img src="/image/Hori_sign_larger.svg" alt="">
-        </div>
-        <div class="down_case_links">
-            <a href="" class="about">О НАС</a>
-            <a href="" class="creators">СОЗДАТЕЛИ</a>
-            <a href="" class="catalog">КАТАЛОГ</a>
-            <a href="" class="creator_portfolio">САЙТ ПОРТФОЛИО СОЗДАТЕЛЯ</a>
-            <p class="attention-dp">ЭТОТ ПРОЕКТ БЫЛ СОЗДАН ДЛЯ ДИПЛОМНОЙ РАБОТЫ И ДЛЯ ПОРТФОЛИО</p>
-        </div>
-    </div>
-</body>
-</html>
+@endsection

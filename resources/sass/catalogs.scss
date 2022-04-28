@@ -1,0 +1,76 @@
+.catalogs{
+    position: absolute;
+    width: 1650px;
+    height: 977px;
+    left: 85px;
+    top: 366px;
+}
+.catalog_text{
+    /* Каталог */
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    width: 90%;
+    align-content: center;
+
+
+    font-family: 'Reggae One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 104px;
+    line-height: 151px;
+    text-align: center;
+    letter-spacing: 0.145em;
+
+    color: #FFFFFF;
+}
+
+.catalogs{
+    position: relative;
+    width: 1650px;
+    height: 977px;
+    left: 85px;
+    top: 366px;
+}
+
+@mixin dynamic_product_text{
+    text-decoration: none;
+    font-family: 'Reggae One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 30px;
+
+    color: #FFFFFF;
+}
+
+.dynamic_products{
+    position: relative;
+    top: 5%;
+    padding: 5%;
+    // justify-items: end;
+    grid-gap: 100px;
+    display: grid;
+    // align-content: end;
+    grid-template-columns: 200px 200px 200px 200px 200px;
+;
+}
+
+.dynamic_product_rectangle{
+
+    width: 200px;
+    height: 300px;
+
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 51.19%, #000000 93.75%);
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+.catalog_text_main{
+    @include dynamic_product_text;
+    text-align: left;
+    position: relative;
+    top: 230px;
+    left: 5%;
+}
