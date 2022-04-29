@@ -28,3 +28,9 @@ Route::get('/catalog', function () {
 Route::get('/creators', function () {
     return view('creators');
 });
+
+Route::get('/product', function () {
+    return view('product');
+});
+
+
