@@ -1,16 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="077621cb-e038-4291-8a9a-a169dbca7287" name="Changes" comment="10.0v">
-      <change afterPath="$PROJECT_DIR$/Hori-Hori/resources/views/product.blade.php" afterDir="false" />
+    <list default="true" id="077621cb-e038-4291-8a9a-a169dbca7287" name="Changes" comment="12.0v">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hori-Hori/.env" beforeDir="false" afterPath="$PROJECT_DIR$/Hori-Hori/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hori-Hori/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Hori-Hori/resources/sass/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hori-Hori/resources/sass/catalogs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Hori-Hori/resources/sass/catalogs.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hori-Hori/resources/views/catalog.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Hori-Hori/resources/views/catalog.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hori-Hori/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Hori-Hori/resources/views/home.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hori-Hori/resources/views/product_review.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hori-Hori/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/Hori-Hori/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hori-Hori/public/css/product.css" beforeDir="false" afterPath="$PROJECT_DIR$/Hori-Hori/public/css/product.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hori-Hori/resources/prepros.config" beforeDir="false" afterPath="$PROJECT_DIR$/Hori-Hori/resources/prepros.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hori-Hori/resources/sass/product.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Hori-Hori/resources/sass/product.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hori-Hori/resources/views/product.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Hori-Hori/resources/views/product.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,16 +28,6 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Hori-Hori/resources/views/layout.blade.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Hori-Hori/resources/sass/catalogs.scss" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Hori-Hori/resources/sass/app.scss" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Hori-Hori/resources/views/catalog.blade.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Hori-Hori/routes/web.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Hori-Hori/resources/views/home.blade.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Hori-Hori/resources/views/product.blade.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Hori-Hori/resources/sass/product.scss" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -209,7 +195,9 @@
       <workItem from="1650976840269" duration="82000" />
       <workItem from="1651033386716" duration="21457000" />
       <workItem from="1651114503086" duration="20865000" />
-      <workItem from="1651236028569" duration="5711000" />
+      <workItem from="1651236028569" duration="6200000" />
+      <workItem from="1651665867921" duration="6681000" />
+      <workItem from="1652271233879" duration="6981000" />
     </task>
     <task id="LOCAL-00001" summary="Second commit">
       <created>1650629813357</created>
@@ -260,7 +248,21 @@
       <option name="project" value="LOCAL" />
       <updated>1651148199416</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="11.0v">
+      <created>1651242082966</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1651242082966</updated>
+    </task>
+    <task id="LOCAL-00009" summary="12.0v">
+      <created>1651673541719</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1651673541719</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -288,6 +290,8 @@
     <MESSAGE value="8.0v" />
     <MESSAGE value="9.0v" />
     <MESSAGE value="10.0v" />
-    <option name="LAST_COMMIT_MESSAGE" value="10.0v" />
+    <MESSAGE value="11.0v" />
+    <MESSAGE value="12.0v" />
+    <option name="LAST_COMMIT_MESSAGE" value="12.0v" />
   </component>
 </project>
