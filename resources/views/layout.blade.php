@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/catalogs.css">
     <link rel="stylesheet" href="css/app.css">
-
+    <link rel="stylesheet" href="css/product.css">
     <title>@yield('title')</title>
 </head>
 <body>

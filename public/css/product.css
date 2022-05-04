@@ -1,0 +1,57 @@
+.standart_goty_buttons {
+  /* standart goty buttons */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 870px;
+  height: 50px;
+  left: 148px;
+  top: 143px;
+  padding-top: 50px;
+}
+
+.standart_product_button {
+  position: absolute;
+  width: 277px;
+  height: 10px;
+  border: 25px solid #b85656;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.standart_product_button_text {
+  left: 8.5%;
+  text-decoration: none;
+  position: relative;
+  font-family: "Reggae One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 43px;
+  text-align: center;
+  letter-spacing: -0.04em;
+  color: #FFFFFF;
+}
+
+.deluxe_product_button {
+  position: absolute;
+  width: 277px;
+  height: 10px;
+  border: 25px solid #b85656;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.deluxe_product_button_text {
+  left: 8.5%;
+  text-decoration: none;
+  position: relative;
+  font-family: "Reggae One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 43px;
+  text-align: center;
+  letter-spacing: -0.04em;
+  color: #FFFFFF;
+}

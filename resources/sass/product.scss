@@ -1,0 +1,48 @@
+@charset "UTF-8";
+.standart_goty_buttons{
+    /* standart goty buttons */
+    display: flex;
+    width: 870px;
+    height: 50px;
+    left: 148px;
+    top: 143px;
+    padding-top: 50px;
+}
+@mixin gotyselectorbutton{
+    left: 8.50%;
+    text-decoration: none;
+    position: relative;
+    font-family: 'Reggae One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 43px;
+    text-align: center;
+    letter-spacing: -0.04em;
+
+    color: #FFFFFF;
+}
+@mixin gotybuttonforms{
+    position: absolute;
+    width: 277px;
+    height: 10px;
+    border: 25px solid rgb(184, 86, 86);
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    // border-radius: 5px;
+}
+.standart_product_button{
+    @include gotybuttonforms;
+}
+.standart_product_button_text{
+    @include gotyselectorbutton;
+}
+
+.deluxe_product_button{
+
+    @include gotybuttonforms;
+}
+.deluxe_product_button_text{
+    @include gotyselectorbutton;
+}
+
