@@ -32,16 +32,28 @@
 
     </div>
 
-    <div class="product_pic">
-
+    <div class="big_product_pic">
+        <div class="product_pic_rectangle">
+        </div>
     </div>
 
-    <div class="name_and_cost">
+    <img src="/image/nierautomata.jpg" alt="" class="real_product_pic">
 
+    <div class="name_and_cost">
+        <h1 class="name">NieR: Automata</h1>
+        <p class="lang">Языки: Русский, Английский, Японский</p>
     </div>
 
     <div class="product_screenshots">
-
+        <h1 class="screenshot_text">Скриншоты</h1>
+        <div class="screenshotgrid">
+            <div class="screenshot"></div>
+            <div class="screenshot"></div>
+            <div class="screenshot"></div>
+            <div class="screenshot"></div>
+            <div class="screenshot"></div>
+            <div class="screenshot"></div>
+        </div>
     </div>
 
     <div class="genres">
