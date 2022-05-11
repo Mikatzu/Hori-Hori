@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="077621cb-e038-4291-8a9a-a169dbca7287" name="Changes" comment="12.0v">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hori-Hori/public/css/product.css" beforeDir="false" afterPath="$PROJECT_DIR$/Hori-Hori/public/css/product.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hori-Hori/resources/prepros.config" beforeDir="false" afterPath="$PROJECT_DIR$/Hori-Hori/resources/prepros.config" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hori-Hori/resources/sass/product.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Hori-Hori/resources/sass/product.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hori-Hori/resources/views/product.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Hori-Hori/resources/views/product.blade.php" afterDir="false" />
-    </list>
+    <list default="true" id="077621cb-e038-4291-8a9a-a169dbca7287" name="Changes" comment="14.0v" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -197,7 +191,7 @@
       <workItem from="1651114503086" duration="20865000" />
       <workItem from="1651236028569" duration="6200000" />
       <workItem from="1651665867921" duration="6681000" />
-      <workItem from="1652271233879" duration="6981000" />
+      <workItem from="1652271233879" duration="7287000" />
     </task>
     <task id="LOCAL-00001" summary="Second commit">
       <created>1650629813357</created>
@@ -262,7 +256,21 @@
       <option name="project" value="LOCAL" />
       <updated>1651673541719</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="13.0v">
+      <created>1652278331485</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1652278331485</updated>
+    </task>
+    <task id="LOCAL-00011" summary="14.0v">
+      <created>1652278461861</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1652278461861</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -292,6 +300,8 @@
     <MESSAGE value="10.0v" />
     <MESSAGE value="11.0v" />
     <MESSAGE value="12.0v" />
-    <option name="LAST_COMMIT_MESSAGE" value="12.0v" />
+    <MESSAGE value="13.0v" />
+    <MESSAGE value="14.0v" />
+    <option name="LAST_COMMIT_MESSAGE" value="14.0v" />
   </component>
 </project>
