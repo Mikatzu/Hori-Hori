@@ -65,7 +65,7 @@
     </div>
 
     <div class="similargames">
-        <h1>can delete</h1>
+        <h1>can delete and delete</h1>
     </div>
 
     <div class="commentary">
