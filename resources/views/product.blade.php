@@ -43,21 +43,21 @@
         <h1 class="name">NieR: Automata</h1>
         <p class="lang">Языки: Русский, Английский, Японский</p>
     </div>
-
+    <h1 class="screenshot_text">Скриншоты</h1>
     <div class="product_screenshots">
-        <h1 class="screenshot_text">Скриншоты</h1>
-        <div class="screenshotgrid">
-            <div class="screenshot"></div>
-            <div class="screenshot"></div>
-            <div class="screenshot"></div>
-            <div class="screenshot"></div>
-            <div class="screenshot"></div>
-            <div class="screenshot"></div>
-        </div>
+            <div class="screenshot">1<img src="" alt="" class="screenshot_img"></div>
+            <div class="screenshot">2<img src="" alt="" class="screenshot_img"></div>
+            <div class="screenshot">3<img src="" alt="" class="screenshot_img"></div>
+            <div class="screenshot">4<img src="" alt="" class="screenshot_img"></div>
+            <div class="screenshot">5<img src="" alt="" class="screenshot_img"></div>
+            <div class="screenshot">6<img src="" alt="" class="screenshot_img"></div>
     </div>
 
     <div class="genres">
-
+        <div class="genre"><p>Жанр</p><p>Экшн, Приключения, Драма</p></div>
+        <div class="genre"><p>Платформа</p><p>PC, XBOX, PS4</p></div>
+        <div class="genre"><p>Издатель</p><p>Platinum Games</p></div>
+        <div class="genre"><p>Разработчик</p><p>Platinum Games</p></div>
     </div>
 
     <div class="review_requirements">
