@@ -65,7 +65,7 @@
     </div>
 
     <div class="similargames">
-        <h1>fdvzohdfdfilghfdiughdkjlhgur</h1>
+        <h1>123</h1>
     </div>
 
     <div class="commentary">
