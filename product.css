@@ -1,0 +1,213 @@
+@charset "UTF-8";
+.standart_goty_buttons {
+  /* standart goty buttons */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding-top: 150px;
+}
+
+.standart_product_button {
+  position: absolute;
+  width: 277px;
+  height: 10px;
+  border: 25px solid #b85656;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.standart_product_button_text {
+  left: 2.5em;
+  text-decoration: none;
+  position: relative;
+  font-family: "Reggae One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 43px;
+  text-align: center;
+  letter-spacing: -0.04em;
+  color: #FFFFFF;
+}
+
+.deluxe_product_button {
+  position: absolute;
+  width: 277px;
+  height: 10px;
+  border: 25px solid #b85656;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.deluxe_product_button_text {
+  left: 2.9em;
+  text-decoration: none;
+  position: relative;
+  font-family: "Reggae One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 43px;
+  text-align: center;
+  letter-spacing: -0.04em;
+  color: #FFFFFF;
+}
+
+.goty_product_button {
+  position: absolute;
+  width: 277px;
+  height: 10px;
+  border: 25px solid #b85656;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.goty_product_button_text {
+  left: 0.7rem;
+  text-decoration: none;
+  position: relative;
+  font-family: "Reggae One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 43px;
+  text-align: center;
+  letter-spacing: -0.04em;
+  color: #FFFFFF;
+}
+
+.big_product_pic {
+  /* Product_pic */
+  position: absolute;
+  width: 383px;
+  height: 569.23px;
+  left: 148px;
+  top: 243.14px;
+  z-index: 12;
+}
+
+.product_pic_rectangle {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  position: relative;
+  width: 383px;
+  height: 569.23px;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(51.19%, rgba(0, 0, 0, 0)), color-stop(93.75%, #000000));
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 51.19%, #000000 93.75%);
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  border-radius: 15px;
+}
+
+.real_product_pic {
+  position: absolute;
+  width: 383px;
+  height: 565.72px;
+  left: 148px;
+  top: 243.14px;
+  border-radius: 15px;
+}
+
+.name {
+  /* NieR: Automata */
+  position: absolute;
+  width: 870px;
+  height: 200px;
+  left: 613px;
+  top: 269px;
+  font-family: "Reggae One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 67px;
+  line-height: 97px;
+  letter-spacing: -0.04em;
+  color: #FFFFFF;
+}
+
+.lang {
+  /* языки: Русский, Английский, Японский */
+  position: absolute;
+  width: 455px;
+  height: 58px;
+  left: 613px;
+  top: 446px;
+  font-family: "Reggae One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  letter-spacing: -0.04em;
+  color: #FFFFFF;
+}
+
+.product_screenshots {
+  /* Скриншоты */
+  position: relative;
+  width: 1117px;
+  height: 520px;
+  left: 613px;
+  top: 400px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (370px)[3];
+  grid-template-columns: repeat(3, 370px);
+}
+
+.screenshot_text {
+  position: absolute;
+  width: 275px;
+  height: 45px;
+  left: 615px;
+  top: 526px;
+  font-family: "Reggae One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 36px;
+  letter-spacing: -0.04em;
+  color: #FFFFFF;
+}
+
+.screenshot {
+  /* Rectangle 12 */
+  position: relative;
+  width: 361px;
+  height: 220px;
+  background: #C4C4C4;
+}
+
+.genres {
+  /* Жанры, платформы и тп */
+  position: relative;
+  width: 383px;
+  height: 433px;
+  left: 148px;
+  top: 140px;
+  border: 3px solid #9D4F4F;
+  border-radius: 15px;
+}
+
+.genre {
+  position: relative;
+  width: 130px;
+  height: 20px;
+  left: 0.5em;
+  font-family: "Reggae One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 29px;
+  letter-spacing: -0.04em;
+  color: #FFFFFF;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (200px)[2];
+  grid-template-columns: repeat(2, 200px);
+  margin-top: 50px;
+}
