@@ -176,7 +176,7 @@
     top: 140px;
     border: 3px solid #9D4F4F;
     border-radius: 15px;
-
+    display: grid;
 }
 
 @mixin textgenre{
@@ -195,7 +195,44 @@
 }
 .genre{
     @include textgenre;
+    position: relative;
     display: grid;
-    grid-template-columns: repeat(2, 200px);
-    // display: grid;
+    grid-template-columns: repeat(2, 188px);
+    justify-content: space-between;
+    align-items: stretch;
+
+}
+
+.review_requirements{
+    /* review requirements and more */
+
+
+    position: absolute;
+    width: 1170px;
+    height: 450px;
+    left: 621px;
+    top: 1107px;
+}
+
+.tabs{
+    /* Вкладки */
+
+    position: relative;
+    width: 1019px;
+    height: 50px;
+    display: grid;
+    grid-template-rows: repeat(3, 80px);
+}
+
+
+.regtangle_black{
+    /* Rectangle 16 */
+
+
+    position: absolute;
+    width: 1170px;
+    height: 400px;
+
+
+    background: rgba(0, 0, 0, 0.38);
 }

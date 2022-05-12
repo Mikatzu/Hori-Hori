@@ -61,11 +61,32 @@
     </div>
 
     <div class="review_requirements">
+        <div class="tabs">
+            <div class="description">
+                <p>Описание</p>
+            </div>
+            <div class="sysreq_description">
+                <p>Системные требования</p>
+            </div>
+            <div class="activation_description">
+                <p>Активация</p>
+            </div>
+        </div>
+
+        <div class="regtangle_black">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis,
+                lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo,
+                vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam quis enim lobortis scelerisque
+                fermentum dui faucibus in ornare quam viverra orci sagittis eu volutpat odio facilisis mauris sit
+            </p>
+        </div>
+
 
     </div>
 
     <div class="similargames">
-        <h1>123</h1>
+
     </div>
 
     <div class="commentary">

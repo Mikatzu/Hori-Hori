@@ -191,6 +191,8 @@
   top: 140px;
   border: 3px solid #9D4F4F;
   border-radius: 15px;
+  display: -ms-grid;
+  display: grid;
 }
 
 .genre {
@@ -205,8 +207,43 @@
   line-height: 29px;
   letter-spacing: -0.04em;
   color: #FFFFFF;
+  position: relative;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (200px)[2];
-  grid-template-columns: repeat(2, 200px);
+  -ms-grid-columns: (188px)[2];
+  grid-template-columns: repeat(2, 188px);
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+}
+
+.review_requirements {
+  /* review requirements and more */
+  position: absolute;
+  width: 1170px;
+  height: 450px;
+  left: 621px;
+  top: 1107px;
+}
+
+.tabs {
+  /* Вкладки */
+  position: relative;
+  width: 1019px;
+  height: 50px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: (80px)[3];
+  grid-template-rows: repeat(3, 80px);
+}
+
+.regtangle_black {
+  /* Rectangle 16 */
+  position: absolute;
+  width: 1170px;
+  height: 400px;
+  background: rgba(0, 0, 0, 0.38);
 }
