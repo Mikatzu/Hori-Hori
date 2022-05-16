@@ -62,31 +62,61 @@
 
     <div class="review_requirements">
         <div class="tabs">
-            <div class="description">
-                <p>Описание</p>
+            <div class="tab">
+                <input type="radio" id="tab1" name="tab-group" checked>
+                <label for="tab1" class="tab-title">Описание</label>
+                <section class="tab-content">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis,
+                  lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo,
+                  vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam quis enim lobortis scelerisque
+                  fermentum dui faucibus in ornare quam viverra orci sagittis eu volutpat odio facilisis mauris sit
+                </section>
             </div>
-            <div class="sysreq_description">
-                <p>Системные требования</p>
+            <div class="tab">
+                <input type="radio" id="tab2" name="tab-group">
+                <label for="tab2" class="tab-title">Сис. Требования</label>
+                <section class="tab-content">
+                    Рекомендованные: <br>
+                    ОС: Windows 8.1 /10 64bit<br>
+                    Процессор: Intel Core i5 4670 or AMD A10-7850K<br>
+                    Оперативная память: 8 GB ОЗУ<br>
+                    Видеокарта: NVIDIA GeForce GTX 980 VRAM 4GB or AMD Radeon R9 380X VRAM 4GB<br>
+                    DirectX: Версии 11<br>
+                    Сеть: Широкополосное подключение к интернету<br>
+                    Место на диске: 50 GB<br>
+                    Звуковая карта: DirectX® 11 supported<br>
+                </section>
             </div>
-            <div class="activation_description">
-                <p>Активация</p>
+            <div class="tab">
+                <input type="radio" id="tab3" name="tab-group">
+                <label for="tab3" class="tab-title">Активация</label>
+                <section class="tab-content">
+                    Скопируйте ключ приобретённой игры из раздела «Заказы» в личном кабинете. <br>
+                    Если у вас не установлен клиент Steam, скачайте и установите его. <br>
+                    Войдите в свой аккаунт Steam или зарегистрируйте новый, если у вас его нет. <br>
+                    Перейдите в раздел «Игры» и выберите «Активировать через Steam...». <br>
+                    Введите ключ активации. <br>
+                    После этого игра будет в вашей библиотеке Steam, и вы сможете её скачать. <br>
+                </section>
             </div>
         </div>
-
-        <div class="regtangle_black">
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis,
-                lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo,
-                vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam quis enim lobortis scelerisque
-                fermentum dui faucibus in ornare quam viverra orci sagittis eu volutpat odio facilisis mauris sit
-            </p>
-        </div>
-
 
     </div>
 
     <div class="similargames">
-
+        <div class="descr_sim" id="descr_sim">
+            <label for="descr_sim" class="descr_sim_text">Похожие</label>
+        </div>
+        <div class="similar_games_real">
+        <div class="similar_game">
+            <img src="" alt="" class="similar_game_img">
+            <p class="similar_game_text">similar game 1</p>
+        </div>
+        <div class="similar_game">
+            <img src="" alt="" class="similar_game_img">
+            <p class="similar_game_text">similar game 2</p>
+        </div>
+        </div>
     </div>
 
     <div class="commentary">
