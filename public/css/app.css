@@ -24,10 +24,8 @@
 
 body {
   /* Main */
-  width: 90%;
-  height: 3200px;
-  background: -webkit-gradient(linear, left top, left bottom, from(#000000), color-stop(48.97%, #3B2A6B), to(#000000));
-  background: linear-gradient(180deg, #000000 0%, #3B2A6B 48.97%, #000000 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#000000), color-stop(#3B2A6B), to(#000000));
+  background: linear-gradient(#000000, #3B2A6B, #000000);
 }
 
 .navbargroup .navbar {

@@ -103,11 +103,11 @@
 
     </div>
 
+    <div class="descr_sim" id="descr_sim">
+        <label for="descr_sim" class="descr_sim_text">Похожие</label>
+    </div>
+
     <div class="similargames">
-        <div class="descr_sim" id="descr_sim">
-            <label for="descr_sim" class="descr_sim_text">Похожие</label>
-        </div>
-        <div class="similar_games_real">
         <div class="similar_game">
             <img src="" alt="" class="similar_game_img">
             <p class="similar_game_text">similar game 1</p>
@@ -116,11 +116,10 @@
             <img src="" alt="" class="similar_game_img">
             <p class="similar_game_text">similar game 2</p>
         </div>
-        </div>
     </div>
 
     <div class="commentary">
-
+        <div class="comments_bar" id="comments_bar"><label for="comments_bar" class="comment_title">Комментарии и отзывы</label></div>
     </div>
 
 @endsection

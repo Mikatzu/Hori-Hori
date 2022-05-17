@@ -292,20 +292,13 @@
   /* Показываем активную вкладку */
 }
 
-.similargames {
-  /* Похожие игры */
-  position: absolute;
-  width: 278px;
-  height: 800px;
-  left: 168px;
-  top: 1353px;
-}
-
 .descr_sim {
   /* Rectangle 9 */
   position: absolute;
   width: 277px;
   height: 50px;
+  left: 168px;
+  top: 1353px;
   background: #723434;
   border-radius: 10px;
 }
@@ -325,18 +318,77 @@
   color: #FFFFFF;
 }
 
-.similar_games_real {
+.similargames {
+  /* Похожие игры */
+  position: relative;
+  width: 278px;
+  height: 800px;
+  left: 168px;
+  top: 254px;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: auto;
-  grid-template-columns: auto;
+  -ms-grid-rows: (365px)[2];
+  grid-template-rows: repeat(2, 365px);
 }
 
 .similar_game {
   /* Dynamic Product 10 */
-  position: absolute;
+  position: relative;
   width: 250px;
   height: 350px;
   background: #C4C4C4;
   border-radius: 15px;
+}
+
+.similar_game_text {
+  /* similar game 1 */
+  position: relative;
+  top: 240px;
+  left: 15px;
+  width: 220px;
+  height: 44px;
+  font-family: "Reggae One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 43px;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: -0.04em;
+  color: #FFFFFF;
+}
+
+.commentary {
+  /* Комментарии */
+  position: absolute;
+  width: 1168px;
+  height: 1227px;
+  left: 615px;
+  top: 1576px;
+  background: rgba(0, 0, 0, 0.38);
+}
+
+.comments_bar {
+  /* Rectangle 9 */
+  position: relative;
+  width: 1168px;
+  height: 50px;
+  bottom: 20px;
+  background: #B85656;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.comment_title {
+  /* Комментарии */
+  position: absolute;
+  width: 1168px;
+  height: 50px;
+  font-family: "Reggae One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 43px;
+  text-align: center;
+  letter-spacing: -0.04em;
+  color: #FFFFFF;
 }
