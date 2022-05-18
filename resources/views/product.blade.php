@@ -1,6 +1,7 @@
 @extends('layout')
 @section('title')Продукт@endsection
 @section('main_content')
+
     <div class="">
 
     </div>
@@ -120,6 +121,9 @@
 
     <div class="commentary">
         <div class="comments_bar" id="comments_bar"><label for="comments_bar" class="comment_title">Комментарии и отзывы</label></div>
+        <div class="comment">
+            <div class="pfp_button"></div>
+        </div>
     </div>
 
 @endsection

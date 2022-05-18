@@ -5,9 +5,7 @@
     font-weight: 400;
     src: url('/fonts/ReggaeOne-Regular.ttf');
 }
-.body{
 
-}
 .standart_goty_buttons{
     /* standart goty buttons */
     display: flex;
@@ -257,7 +255,7 @@
 .tab-content {
     /* Rectangle 16 */
     position: absolute;
-    width: 1101px;
+    width: 1168px;
     height: 500px;
     left: 0px;
     text-align: left;
@@ -356,11 +354,11 @@
     /* Комментарии */
 
 
-    position: absolute;
+    position: relative;
     width: 1168px;
-    height: 1227px;
+    height: 950px;
     left: 615px;
-    top: 1576px;
+    bottom: 250px;
     background: rgba(0, 0, 0, 0.38);
 }
 .comments_bar{
@@ -393,4 +391,24 @@
     letter-spacing: -0.04em;
 
     color: #FFFFFF;
+}
+
+.comment{
+
+}
+
+.pfp_button{
+    /* Rectangle 4 */
+
+
+    box-sizing: border-box;
+
+    position: relative;
+    width: 50px;
+    height: 50px;
+    left: 656px;
+
+
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    border-radius: 62px;
 }
