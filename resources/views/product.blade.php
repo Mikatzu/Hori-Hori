@@ -122,7 +122,22 @@
     <div class="commentary">
         <div class="comments_bar" id="comments_bar"><label for="comments_bar" class="comment_title">Комментарии и отзывы</label></div>
         <div class="comment">
-            <div class="pfp_button"></div>
+
+            <div class="tab-comment">
+                <input type="radio" id="comment_tab" name="tab-group" checked>
+                <label for="comment_tab" class="tab-title">Комментарий</label>
+                <section class="tab-content_comment">
+                    <input type="text" class="comment_input">
+                </section>
+            </div>
+
+            <div class="tab-comment">
+                <input type="radio" id="feedback_tab" name="tab-group">
+                <label for="feedback_tab" class="tab-title">Отзыв</label>
+                <section class="tab-content_comment">
+
+                </section>
+            </div>
         </div>
     </div>
 

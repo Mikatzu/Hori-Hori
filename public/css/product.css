@@ -404,3 +404,14 @@
   border: 1px solid rgba(255, 255, 255, 0.7);
   border-radius: 62px;
 }
+
+.comment_input {
+  /* Rectangle 34 */
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  position: relative;
+  width: 1040px;
+  height: 239px;
+  background: rgba(78, 78, 78, 0.53);
+  border: 3px solid rgba(255, 255, 255, 0.5);
+}
