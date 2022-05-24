@@ -2,38 +2,30 @@
 @section('title')Hori-Hori Магазин цифровых видеоигр. Покупай, Играй, Наслаждайся!@endsection
 @section('main_content')
     <div class="div1">
-        <div class="bigtext"><img src="/image/Hori_bigtext.svg" alt=""></div>
-        <div class="bestsellers"><p>Бестселлеры</p></div>
-        <a href="/product">
-            <div class="bestseller1">
-                <div class="regtangle_bestseller1">
-                    <p class="bestseller1-t">ELDEN RING Deluxe edition 50$</p>
-                </div>
+        <img src="/image/Hori_bigtext.png" class="bigtext" alt="">
+        <div class="bestsellers_text">Бестселлеры</div>
+        <div class="bestsellers">
+            <div class="bestseller_product_rectangle">
+                <a href="/product" class="bestseller_pic1"><img src="" alt="">
+                    <a href="/product" class="catalog_text_main">Lorem ipsum dolor sit1.</a>
+                </a>
             </div>
-            <img src="/image/elden_ringdeluxe.jpg" alt="" class="bestsellerpic1">
-        </a>
-        <a href="/product">
-            <div class="bestseller2">
-                <div class="regtangle_bestseller2">
-                    <p class="bestseller2-t">NieR:Automata 20$</p>
-                </div>
+            <div class="bestseller_product_rectangle">
+                <a href="/product" class="bestseller_pic2"><img src="" alt="">
+                    <a href="/product" class="catalog_text_main">Lorem ipsum dolor sit1.</a> </a>
             </div>
-            <img src="/image/nierautomata.jpg" alt="" class="bestsellerpic2">
-        </a>
-        <a href="/product">
-            <div class="bestseller3">
-                <div class="regtangle_bestseller3">
-                    <p class="bestseller3-t">Battlefield 49.99$</p>
-                </div>
-            </div><img src="/image/Battlefield2042.jpg" alt="" class="bestsellerpic3">
-        </a>
+            <div class="bestseller_product_rectangle">
+                <a href="/product" class="bestseller_pic3"><img src="" alt="">
+                    <a href="/product" class="catalog_text_main">Lorem ipsum dolor sit1.</a> </a>
+            </div>
+        </div>
     </div>
 
     <div class="div2">
-        <div class="bestcosts"><img src="/image/bestcosts.svg" alt=""></div>
-        <div class="krugsupport"><img src="/image/krugsupport.svg" alt=""></div>
-        <div class="bestachievements"><img src="/image/bestachievements.svg" alt=""></div>
-        <div class="bestreviews"><img src="/image/bestreviews.svg" alt=""></div>
+        <div class="bestcosts"><img src="/image/bestcosts.svg" alt="" class="review_in_div2"></div>
+        <div class="krugsupport"><img src="/image/krugsupport.svg" alt="" class="review_in_div2"></div>
+        <div class="bestachievements"><img src="/image/bestachievements.svg" alt="" class="review_in_div2"></div>
+        <div class="bestreviews"><img src="/image/bestreviews.svg" alt="" class="review_in_div2"></div>
     </div>
 
     <div class="sell_case">

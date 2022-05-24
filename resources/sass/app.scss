@@ -22,12 +22,7 @@
 
 
 body {
-    /* Main */
-   // position: absolute;
-    width: 90%;
-    height: 100%;
-
-   // background-image: url("public/image/background png.png");
+    height: 3200px;
     background: linear-gradient(180deg, #6649B6 0%, #000000 0.01%, #382769 46.35%, #000000 100%);
 }
 
@@ -58,18 +53,10 @@ body {
     .rectangle3 {
 
         position: absolute;
-        left: 10.00%;
-        right: 60.44%;
-        top: 25%;
-        bottom: 100%;
-        // position: absolute;
-        // left: 34.44%;
-        // right: 60.61%;
-        // top: 44.71%;
-        // bottom: 24.71%;
+        top: 20%;
+        left: 9%;
+        justify-content: center;
         text-decoration: none;
-
-
 
         font-family: 'Reggae One';
         font-style: normal;
@@ -78,6 +65,15 @@ body {
         line-height: 17px;
 
         color: #FFFFFF;
+        @media (max-width: 1600px) {
+            left: 7%;
+            font-size: 18px;
+        }
+        @media (max-width: 1870px) {
+            .rectangle3 {
+                left: 15%;
+            }
+        }
     }
 
     .searchbar {
@@ -86,12 +82,6 @@ body {
         right: 37.17%;
         top: 32.94%;
         bottom: 20%;
-
-        //   position: absolute;
-        //   left: 40.61%;
-        //   right: 37.17%;
-        //   top: 32.94%;
-        //   bottom: 20%;
 
         border: 4px solid rgba(255, 255, 255, 0.7);
         box-sizing: border-box;
@@ -104,7 +94,6 @@ body {
         right: 37.17%;
         top: 32.94%;
         bottom: 20%;
-        //  padding-inline-start: 160px;
         font-family: "Reggae One";
         color: white;
 
@@ -121,13 +110,12 @@ body {
         right: 33.89%;
         top: 32.94%;
         bottom: 20%;
-
     }
 
     .pfp {
-        position: absolute;
+        position: relative;
         max-width: 100%;
-        left: 92.89%;
+        left: 93%;
         right: 2.94%;
         top: 11.76%;
         bottom: 0%;
@@ -135,25 +123,46 @@ body {
         border: 1px solid rgba(255, 255, 255, 0.7);
         box-sizing: border-box;
         border-radius: 62px;
+        @media (min-width: 1800px) {
+            left: 92.89%;
+        }
     }
+    @media (max-width: 1600px) {
+        height: 63px;
+
+    }
+
 }
 
 .div1{
-    .bigtext{
-    position: absolute;
-    width: 442px;
-    height: 404px;
-    left: 218px;
-    top: 255px;
+
+
 }
 
-    .bestsellers{
+.bigtext{
     position: absolute;
-    width: 776px;
-    height: 98px;
-    left: 910px;
-    top: 200px;
+    left: 200px;
+    top: 255px;
+    @media (max-width: 1870px) {
+        left: 9%;
+        top: 23%
+    }
+    @media (max-width: 1600px) {
+        .bigtext{
+            left: 9%;
+            width: 365.82px;
+            height: 346px;
+        }
+    }
+}
 
+.bestsellers_text {
+
+    /* Бестселлеры */
+    position: relative;
+    top: 4.50em;
+    left: 45.5%;
+    width: 776px;
     font-family: 'Reggae One';
     font-style: normal;
     font-weight: 400;
@@ -162,210 +171,64 @@ body {
     text-align: center;
 
     color: #FFFFFF;
-}
-
-    .bestseller1{
-    position: absolute;
-    width: 218px;
-    height: 324px;
-    left: 910px;
-    top: 475px;
-    z-index: 12;
-}
-
-    .bestseller1-t{
-    /* ELDEN RING Deluxe edition */
-    position: absolute;
-    width: 191px;
-    height: 73px;
-    top: 200px;
-    left: 10px;
-    z-index: 10;
-    font-family: 'Reggae One';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 21px;
-    line-height: 30px;
-    color: #FFFFFF;
-}
-
-    .bestsellerpic1{
-    position: absolute;
-    width: 216px;
-    height: 322px;
-    z-index: 9;
-    border-radius: 15px;
-    left: 910px;
-    top: 475px;
-}
-
-    .bestseller2{
-    /* Bestseller 2 */
-
-
-    position: absolute;
-    width: 218px;
-    height: 324px;
-    left: 1208px;
-    top: 475px;
 
 }
-
-    .bestsellerpic2{
-    position: absolute;
-    width: 218px;
-    height: 322px;
-
-    border-radius: 15px;
-    left: 1208px;
-    top: 475px;
+@media (max-width: 1610px) {
+    .bestsellers_text{
+        left: 10.9em;
+        font-size: 54px;
+    }
 }
 
-    .bestseller2-t{
-    position: absolute;
-    width: 191px;
-    height: 31px;
-    top: 230px;
-    left: 10px;
-    z-index: 2;
-    font-family: 'Reggae One';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 21px;
-    line-height: 30px;
-    /* identical to box height */
-
-
-    color: #FFFFFF;
+@media (max-width: 1870px) {
+    .bestsellers_text{
+        left: 11.6em;
+        top: 3.5em;
+    }
 }
 
-    .bestseller3{
-    /* Bestseller 3 */
-
-
-    position: absolute;
-    width: 218px;
-    height: 324px;
-    left: 1506px;
-    top: 473px;
+.bestsellers{
+    position: relative;
+    left: 48%;
+    top: 13em;
+    width: 200px;
+    display: grid;
+    grid-template-columns: repeat(3,250px);
+}
+@media (max-width: 1600px) {
+    .bestsellers{
+        left: 46.5%;
+        grid-template-columns: repeat(3,250px);
+    }
+}
+@media (max-width: 1800px) {
+    .bestsellers{
+        display: grid;
+    }
 }
 
-    .bestsellerpic3{
-    position: absolute;
-    width: 217px;
-    height: 324px;
-    left: 1506px;
-    top: 473px;
+.bestseller_product_rectangle{
+    width: 200px;
+    height: 300px;
 
-    border-radius: 15px;
-}
-
-    .bestseller3-t{
-    /* BATTLEFIELD 2042 */
-    position: absolute;
-    width: 191px;
-    height: 58px;
-    top: 230px;
-    left: 10px;
-
-    font-family: 'Reggae One';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 21px;
-    line-height: 30px;
-
-    color: #FFFFFF;
-}
-
-    .regtangle_bestseller1{
-    /* bestseller-1 */
-    position: absolute;
-    width: 218px;
-    height: 324px;
-
-    z-index: 7;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 51.19%, #000000 93.75%);
-    border: 1px solid rgba(255, 255, 255, 0.8);
-    box-sizing: border-box;
-    border-radius: 15px;
-
-}
-
-    .regtangle_bestseller2{
-    /* bestseller-2 */
-    position: absolute;
-    width: 218px;
-    height: 324px;
-    z-index: 7;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0) 51.19%, #000000 93.75%);
     border: 1px solid rgba(255, 255, 255, 0.8);
     box-sizing: border-box;
     border-radius: 15px;
 }
 
-    .regtangle_bestseller3{
-    /* bestseller-3 */
-    position: absolute;
-    width: 218px;
-    height: 324px;
-    z-index: 7;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 51.19%, #000000 93.75%);
-    border: 1px solid rgba(255, 255, 255, 0.8);
-    box-sizing: border-box;
-    border-radius: 15px;
-}
-}
 
 .div2{
     /* Review */
-    position: absolute;
-    width: 1596px;
-    left: 1%;
 
-    .bestcosts{
-    /* Лучшие скидки */
-
-
-    position: absolute;
-    width: 309px;
-    height: 317px;
+    position: relative;
     left: 90px;
-    top: 893px;
-}
-
-    .krugsupport{
-    /* Круглосуточная поддержка */
-
-
-    position: absolute;
-    width: 309px;
-    height: 317px;
-    left: 519px;
-    top: 900px;
+    top: 400px;
+    display: grid;
+    grid-template-columns: repeat(4,350px) ;
 
 }
-
-    .bestachievements{
-    /* Крутые достижения */
-
-
-    position: absolute;
-    width: 309px;
-    height: 294px;
-    left: 948px;
-    top: 932px;
-}
-
-    .bestreviews{
-    /* Отличные отзывы */
-
-
-    position: absolute;
-    width: 309px;
-    height: 304px;
-    left: 1377px;
-    top: 920px;
-}
+.review_in_div2{
 
 }
 
@@ -381,12 +244,7 @@ body {
 
 .sell_case{
     /* Sell case */
-
-    position: absolute;
-    width: 1650px;
-    height: 977px;
-    left: 85px;
-    top: 1266px;
+    position: relative;
 }
 
 .newprod{
@@ -403,7 +261,6 @@ body {
     box-sizing: border-box;
     border-radius: 62px;
     }
-
 .newprod_button{
     /* НОВИНКИ */
 
@@ -425,7 +282,6 @@ body {
 
     color: #FFFFFF;
     }
-
 .leadsells{
     /* Rectangle 4 */
 
@@ -439,7 +295,6 @@ body {
     box-sizing: border-box;
     border-radius: 62px;
     }
-
 .leadsells_button{
     /* ЛИДЕРЫ ПРОДАЖ */
     text-decoration: none;
@@ -460,7 +315,6 @@ body {
 
     color: #FFFFFF;
     }
-
 .preorders{
     /* Rectangle 4 */
 
@@ -475,7 +329,6 @@ body {
     box-sizing: border-box;
     border-radius: 62px;
 }
-
 .preorders_button{
     text-decoration: none;
     /* ПРЕДЗАКАЗЫ */
@@ -496,7 +349,6 @@ body {
 
     color: #FFFFFF;
     }
-
 @mixin dynamic_product_text{
     text-decoration: none;
     font-family: 'Reggae One';
@@ -507,16 +359,11 @@ body {
 
     color: #FFFFFF;
 }
-
 .dynamic_products{
     left: 3%;
-    padding: 3%;
-   // justify-items: end;
-    grid-gap: 100px;
+    padding: 15px;
     display: grid;
-   // align-content: end;
-    grid-template-columns: 200px 200px 200px 200px 200px;
-;
+    grid-template-columns: repeat(5, 150px);
 }
 
 .dynamic_product_rectangle{
@@ -655,6 +502,11 @@ body {
     height: 518px;
     left: 0px;
     top: 2738px;
+    @media (max-width: 1600px) {
+        .downcase{
+            width: 75%;
+        }
+    }
 }
 
 .line{
@@ -755,3 +607,6 @@ body {
     right: 5.56%;
     bottom: 85%;
 }
+
+
+
