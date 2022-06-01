@@ -1,7 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="077621cb-e038-4291-8a9a-a169dbca7287" name="Changes" comment="14.0v" />
+    <list default="true" id="75452352-178d-48cf-b149-43d75f28cf8d" name="Changes" comment="14.0v">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e99d254e-6529-467b-9a20-86d11d7aa068.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e99d254e-6529-467b-9a20-86d11d7aa068/storage_v2/_src_/database/d98f12fitgc1du.WYAo8Q.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e99d254e-6529-467b-9a20-86d11d7aa068/storage_v2/_src_/database/d98f12fitgc1du.WYAo8Q/schema/hori-hori-net.PQD0tg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e99d254e-6529-467b-9a20-86d11d7aa068/storage_v2/_src_/database/d98f12fitgc1du.WYAo8Q/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e99d254e-6529-467b-9a20-86d11d7aa068/storage_v2/_src_/database/d98f12fitgc1du.WYAo8Q/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e99d254e-6529-467b-9a20-86d11d7aa068/storage_v2/_src_/database/d98f12fitgc1du.WYAo8Q/schema/public.abK9xQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/public/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/public/css/app.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/public/fonts/ReggaeOne-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/public/image/Battlefield2042.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/public/image/Hori_bigtext.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/public/image/Hori_sign.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/public/image/Search_button.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/public/image/bestachievements.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/public/image/bestcosts.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/public/image/bestreviews.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/public/image/elden_ringdeluxe.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/public/image/krugsupport.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/public/image/nierautomata.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/public/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/public/prepros.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blackzark/.env" beforeDir="false" afterPath="$PROJECT_DIR$/blackzark/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blackzark/app/Http/Controllers/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/blackzark/app/Http/Controllers/RegisterController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blackzark/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/blackzark/public/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blackzark/resources/prepros.config" beforeDir="false" afterPath="$PROJECT_DIR$/blackzark/resources/prepros.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blackzark/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/blackzark/resources/sass/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blackzark/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/blackzark/resources/views/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blackzark/resources/views/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/blackzark/resources/views/login.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blackzark/resources/views/product.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/blackzark/resources/views/product.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blackzark/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/blackzark/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hori-hori" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,7 +49,12 @@
     <execution />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Hori-Hori" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="123" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/blackzark" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GitSEFilterConfiguration">
@@ -22,6 +64,17 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/blackzark/app/Models/User.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/blackzark/routes/web.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/blackzark/resources/views/registration.blade.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/blackzark/.env" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/blackzark/resources/views/login.blade.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/blackzark/app/Http/Controllers/RegisterController.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/blackzark/resources/views/home.blade.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/blackzark/resources/sass/app.scss" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/blackzark/app/Http/Controllers/LoginController.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -150,6 +203,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="postgresql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -176,7 +230,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="077621cb-e038-4291-8a9a-a169dbca7287" name="Changes" comment="" />
+      <changelist id="75452352-178d-48cf-b149-43d75f28cf8d" name="Changes" comment="14.0v" />
       <created>1650530673983</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -192,6 +246,10 @@
       <workItem from="1651236028569" duration="6200000" />
       <workItem from="1651665867921" duration="6681000" />
       <workItem from="1652271233879" duration="7287000" />
+      <workItem from="1653978960244" duration="2381000" />
+      <workItem from="1654000683406" duration="6459000" />
+      <workItem from="1654063055211" duration="69000" />
+      <workItem from="1654066691232" duration="311000" />
     </task>
     <task id="LOCAL-00001" summary="Second commit">
       <created>1650629813357</created>
@@ -290,6 +348,7 @@
   <component name="VcsManagerConfiguration">
     <ignored-roots>
       <path value="$PROJECT_DIR$/Hori-Hori" />
+      <path value="$PROJECT_DIR$/hori-hori" />
     </ignored-roots>
     <MESSAGE value="Second commit" />
     <MESSAGE value="5.0v" />
