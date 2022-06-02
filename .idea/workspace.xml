@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="75452352-178d-48cf-b149-43d75f28cf8d" name="Changes" comment="1.2v">
+    <list default="true" id="75452352-178d-48cf-b149-43d75f28cf8d" name="Changes" comment="1.3v">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blackzark/database/migrations/2014_10_12_100000_create_password_resets_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/blackzark/database/migrations/2014_10_12_100000_create_password_resets_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blackzark/app/Http/Controllers/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/blackzark/app/Http/Controllers/RegisterController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blackzark/resources/views/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/blackzark/resources/views/layout.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blackzark/resources/views/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/blackzark/resources/views/login.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blackzark/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/blackzark/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blackzark/resources/views/private.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/blackzark/resources/views/private.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -219,6 +218,8 @@
       <workItem from="1654000683406" duration="6459000" />
       <workItem from="1654063055211" duration="69000" />
       <workItem from="1654066691232" duration="1933000" />
+      <workItem from="1654089290673" duration="695000" />
+      <workItem from="1654171663702" duration="3930000" />
     </task>
     <task id="LOCAL-00001" summary="Second commit">
       <created>1650629813357</created>
@@ -304,7 +305,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654067347514</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="1.3v">
+      <created>1654089439720</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1654089439720</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -338,6 +346,7 @@
     <MESSAGE value="13.0v" />
     <MESSAGE value="14.0v" />
     <MESSAGE value="1.2v" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.2v" />
+    <MESSAGE value="1.3v" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.3v" />
   </component>
 </project>
