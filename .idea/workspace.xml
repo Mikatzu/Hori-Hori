@@ -1,25 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="75452352-178d-48cf-b149-43d75f28cf8d" name="Changes" comment="1.7v">
-      <change afterPath="$PROJECT_DIR$/blackzark/resources/views/inside/inside.blade.php" afterDir="false" />
+    <list default="true" id="75452352-178d-48cf-b149-43d75f28cf8d" name="Changes" comment="Добавлен инсайд с блэйдами&#10;Надо сделать crud">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blackzark/app/Http/Controllers/MainController.php" beforeDir="false" afterPath="$PROJECT_DIR$/blackzark/app/Http/Controllers/MainController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blackzark/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/blackzark/app/Models/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blackzark/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/blackzark/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blackzark/database/migrations/2022_05_25_204309_create_contact_models_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/blackzark/database/migrations/2022_05_25_204309_create_contact_models_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blackzark/database/migrations/2022_06_05_124058_create_user_bought_product.php" beforeDir="false" afterPath="$PROJECT_DIR$/blackzark/database/migrations/2022_06_05_124058_create_user_products.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blackzark/database/migrations/2022_06_06_191731_create_genres_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/blackzark/database/migrations/2022_06_06_191731_create_genres_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blackzark/database/migrations/2022_06_06_194601_create_screenshots_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/blackzark/database/migrations/2022_06_06_194601_create_screenshots_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blackzark/database/migrations/2022_06_06_199856_create_products_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/blackzark/database/migrations/2022_06_06_199856_create_products_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blackzark/database/migrations/2022_06_06_204029_product_screenshots_modules.php" beforeDir="false" afterPath="$PROJECT_DIR$/blackzark/database/migrations/2022_06_06_204029_product_screenshots_modules.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blackzark/database/migrations/2022_06_06_211403_product_genres.php" beforeDir="false" afterPath="$PROJECT_DIR$/blackzark/database/migrations/2022_06_06_198403_product_genres.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blackzark/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/blackzark/resources/sass/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blackzark/resources/views/catalog.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/blackzark/resources/views/catalog.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blackzark/resources/views/inside.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blackzark/resources/views/inside_login.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blackzark/resources/views/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/blackzark/resources/views/layout.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blackzark/resources/views/private.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/blackzark/resources/views/private.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blackzark/app/Http/Controllers/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/blackzark/app/Http/Controllers/ProductController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blackzark/app/Models/Products.php" beforeDir="false" afterPath="$PROJECT_DIR$/blackzark/app/Models/Product.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blackzark/resources/views/inside/export.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blackzark/resources/views/inside/inside.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/blackzark/resources/views/inside/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blackzark/resources/views/inside/orders.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blackzark/resources/views/inside/sys_users.blade.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/blackzark/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/blackzark/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -199,10 +189,10 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Projects\blackzark\resources\views\inside" />
+      <recent name="C:\Projects\blackzark\app\Http\Controllers\Auth" />
       <recent name="C:\Projects\blackzark\resources\views" />
       <recent name="C:\Projects\blackzark\app\Models" />
       <recent name="C:\Projects\Hori-Hori\public\image" />
-      <recent name="C:\Projects\hori-hori\public\image" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Projects\blackzark\resources\views\inside" />
@@ -239,7 +229,8 @@
       <workItem from="1654171663702" duration="3976000" />
       <workItem from="1654522548805" duration="3778000" />
       <workItem from="1654605009895" duration="217000" />
-      <workItem from="1654656602778" duration="20531000" />
+      <workItem from="1654656602778" duration="20610000" />
+      <workItem from="1654775190565" duration="5556000" />
     </task>
     <task id="LOCAL-00001" summary="Second commit">
       <created>1650629813357</created>
@@ -339,7 +330,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654181668555</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Добавлен инсайд с блэйдами&#10;Надо сделать crud">
+      <created>1654691581169</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1654691581169</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -375,6 +373,7 @@
     <MESSAGE value="1.2v" />
     <MESSAGE value="1.3v" />
     <MESSAGE value="1.7v" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.7v" />
+    <MESSAGE value="Добавлен инсайд с блэйдами&#10;Надо сделать crud" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавлен инсайд с блэйдами&#10;Надо сделать crud" />
   </component>
 </project>
